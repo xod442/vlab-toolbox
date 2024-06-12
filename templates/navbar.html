@@ -1,0 +1,37 @@
+
+{% block content %}
+
+<nav id="primary-navigation" class="site-navigation">
+    <div class="container">
+
+        <div class="navbar-header">
+
+            <a class="site-title" ><span>vLabs.</span>Utility</a>
+
+        </div><!-- /.navbar-header -->
+
+        <div class="collapse navbar-collapse" id="agency-navbar-collapse">
+
+            <ul class="nav navbar-nav navbar-right">
+
+              <<li><a href="{{ url_for('home', message = 'Returned to home screen...EOL') }}">Home</a></li>
+
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Reset<i class="fa fa-caret-down hidden-xs" aria-hidden="true"></i></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                  
+                  <li><a href="{{ url_for('list_dvs') }}">List DVS</a></li>
+                  <li><a href="{{ url_for('connect_dvs') }}">Connect VM Nic to DVS </a></li>
+                  <li><a href="{{ url_for('reset_afc') }}">Reset AFC</a></li>
+                  <li><a href="{{ url_for('test') }}">Get Ports</a></li>
+                  
+
+                </ul>
+              </li>
+               
+            </ul>
+
+        </div>
+
+    </div>
+</nav><!-- /.site-navigation -->
+{% endblock %}
