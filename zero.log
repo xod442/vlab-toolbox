@@ -11473,3 +11473,200 @@
 2024-06-13 16:42:31,696 172.21.0.1 - - [13/Jun/2024 16:42:31] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
 2024-06-13 16:42:31,696 172.21.0.1 - - [13/Jun/2024 16:42:31] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
 2024-06-13 16:42:31,698 172.21.0.1 - - [13/Jun/2024 16:42:31] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:15,182  * Detected change in '/opt/app.py', reloading
+2024-06-13 16:45:15,278  * Restarting with stat
+2024-06-13 16:45:15,884  * Debugger is active!
+2024-06-13 16:45:15,889  * Debugger PIN: 123-752-431
+2024-06-13 16:45:18,937 172.21.0.1 - - [13/Jun/2024 16:45:18] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-13 16:45:18,997 172.21.0.1 - - [13/Jun/2024 16:45:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:19,001 172.21.0.1 - - [13/Jun/2024 16:45:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:19,003 172.21.0.1 - - [13/Jun/2024 16:45:19] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:19,004 172.21.0.1 - - [13/Jun/2024 16:45:19] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:19,005 172.21.0.1 - - [13/Jun/2024 16:45:19] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:19,007 172.21.0.1 - - [13/Jun/2024 16:45:19] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:19,012 172.21.0.1 - - [13/Jun/2024 16:45:19] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:19,012 172.21.0.1 - - [13/Jun/2024 16:45:19] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:19,013 172.21.0.1 - - [13/Jun/2024 16:45:19] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:22,786 172.21.0.1 - - [13/Jun/2024 16:45:22] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 16:45:22,834 172.21.0.1 - - [13/Jun/2024 16:45:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:22,838 172.21.0.1 - - [13/Jun/2024 16:45:22] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:22,840 172.21.0.1 - - [13/Jun/2024 16:45:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:22,840 172.21.0.1 - - [13/Jun/2024 16:45:22] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:22,843 172.21.0.1 - - [13/Jun/2024 16:45:22] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:22,845 172.21.0.1 - - [13/Jun/2024 16:45:22] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:22,847 172.21.0.1 - - [13/Jun/2024 16:45:22] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:22,849 172.21.0.1 - - [13/Jun/2024 16:45:22] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:22,850 172.21.0.1 - - [13/Jun/2024 16:45:22] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:43,649 172.21.0.1 - - [13/Jun/2024 16:45:43] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 16:45:43,704 172.21.0.1 - - [13/Jun/2024 16:45:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:43,707 172.21.0.1 - - [13/Jun/2024 16:45:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:43,708 172.21.0.1 - - [13/Jun/2024 16:45:43] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:43,712 172.21.0.1 - - [13/Jun/2024 16:45:43] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:43,713 172.21.0.1 - - [13/Jun/2024 16:45:43] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:43,714 172.21.0.1 - - [13/Jun/2024 16:45:43] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:43,716 172.21.0.1 - - [13/Jun/2024 16:45:43] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:43,717 172.21.0.1 - - [13/Jun/2024 16:45:43] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:43,720 172.21.0.1 - - [13/Jun/2024 16:45:43] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:52,970 172.21.0.1 - - [13/Jun/2024 16:45:52] "GET /connect_workload HTTP/1.1" 200 -
+2024-06-13 16:45:53,020 172.21.0.1 - - [13/Jun/2024 16:45:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:53,023 172.21.0.1 - - [13/Jun/2024 16:45:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:53,026 172.21.0.1 - - [13/Jun/2024 16:45:53] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:53,027 172.21.0.1 - - [13/Jun/2024 16:45:53] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:53,029 172.21.0.1 - - [13/Jun/2024 16:45:53] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:53,031 172.21.0.1 - - [13/Jun/2024 16:45:53] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:53,032 172.21.0.1 - - [13/Jun/2024 16:45:53] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:53,035 172.21.0.1 - - [13/Jun/2024 16:45:53] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:53,036 172.21.0.1 - - [13/Jun/2024 16:45:53] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:59,780 172.21.0.1 - - [13/Jun/2024 16:45:59] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 16:45:59,821 172.21.0.1 - - [13/Jun/2024 16:45:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:59,822 172.21.0.1 - - [13/Jun/2024 16:45:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:59,826 172.21.0.1 - - [13/Jun/2024 16:45:59] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:45:59,829 172.21.0.1 - - [13/Jun/2024 16:45:59] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:59,831 172.21.0.1 - - [13/Jun/2024 16:45:59] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:59,833 172.21.0.1 - - [13/Jun/2024 16:45:59] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:59,835 172.21.0.1 - - [13/Jun/2024 16:45:59] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:59,836 172.21.0.1 - - [13/Jun/2024 16:45:59] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:45:59,837 172.21.0.1 - - [13/Jun/2024 16:45:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:46:47,153  * Detected change in '/opt/app.py', reloading
+2024-06-13 16:46:47,248  * Restarting with stat
+2024-06-13 16:46:47,643  * Debugger is active!
+2024-06-13 16:46:47,644  * Debugger PIN: 123-752-431
+2024-06-13 16:46:50,476 172.21.0.1 - - [13/Jun/2024 16:46:50] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-13 16:46:50,534 172.21.0.1 - - [13/Jun/2024 16:46:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:46:50,536 172.21.0.1 - - [13/Jun/2024 16:46:50] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:46:50,537 172.21.0.1 - - [13/Jun/2024 16:46:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:46:50,538 172.21.0.1 - - [13/Jun/2024 16:46:50] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:46:50,539 172.21.0.1 - - [13/Jun/2024 16:46:50] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:46:50,541 172.21.0.1 - - [13/Jun/2024 16:46:50] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:46:50,542 172.21.0.1 - - [13/Jun/2024 16:46:50] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:46:50,549 172.21.0.1 - - [13/Jun/2024 16:46:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:46:50,550 172.21.0.1 - - [13/Jun/2024 16:46:50] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:46:53,321 172.21.0.1 - - [13/Jun/2024 16:46:53] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 16:46:53,368 172.21.0.1 - - [13/Jun/2024 16:46:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:46:53,371 172.21.0.1 - - [13/Jun/2024 16:46:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:46:53,372 172.21.0.1 - - [13/Jun/2024 16:46:53] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:46:53,375 172.21.0.1 - - [13/Jun/2024 16:46:53] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:46:53,377 172.21.0.1 - - [13/Jun/2024 16:46:53] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:46:53,378 172.21.0.1 - - [13/Jun/2024 16:46:53] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:46:53,380 172.21.0.1 - - [13/Jun/2024 16:46:53] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:46:53,381 172.21.0.1 - - [13/Jun/2024 16:46:53] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:46:53,382 172.21.0.1 - - [13/Jun/2024 16:46:53] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:47:42,811  * Detected change in '/opt/app.py', reloading
+2024-06-13 16:47:42,899  * Restarting with stat
+2024-06-13 16:47:43,288  * Debugger is active!
+2024-06-13 16:47:43,289  * Debugger PIN: 123-752-431
+2024-06-13 16:47:46,615 172.21.0.1 - - [13/Jun/2024 16:47:46] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-13 16:47:46,674 172.21.0.1 - - [13/Jun/2024 16:47:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:47:46,677 172.21.0.1 - - [13/Jun/2024 16:47:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:47:46,682 172.21.0.1 - - [13/Jun/2024 16:47:46] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:47:46,684 172.21.0.1 - - [13/Jun/2024 16:47:46] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:47:46,688 172.21.0.1 - - [13/Jun/2024 16:47:46] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:47:46,689 172.21.0.1 - - [13/Jun/2024 16:47:46] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:47:46,691 172.21.0.1 - - [13/Jun/2024 16:47:46] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:47:46,693 172.21.0.1 - - [13/Jun/2024 16:47:46] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:47:46,694 172.21.0.1 - - [13/Jun/2024 16:47:46] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:47:50,045 172.21.0.1 - - [13/Jun/2024 16:47:50] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 16:47:50,092 172.21.0.1 - - [13/Jun/2024 16:47:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:47:50,094 172.21.0.1 - - [13/Jun/2024 16:47:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:47:50,094 172.21.0.1 - - [13/Jun/2024 16:47:50] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:47:50,096 172.21.0.1 - - [13/Jun/2024 16:47:50] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:47:50,097 172.21.0.1 - - [13/Jun/2024 16:47:50] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:47:50,100 172.21.0.1 - - [13/Jun/2024 16:47:50] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:47:50,101 172.21.0.1 - - [13/Jun/2024 16:47:50] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:47:50,103 172.21.0.1 - - [13/Jun/2024 16:47:50] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:47:50,106 172.21.0.1 - - [13/Jun/2024 16:47:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:48:30,425  * Detected change in '/opt/app.py', reloading
+2024-06-13 16:48:30,515  * Restarting with stat
+2024-06-13 16:48:30,865  * Debugger is active!
+2024-06-13 16:48:30,866  * Debugger PIN: 123-752-431
+2024-06-13 16:48:34,654 172.21.0.1 - - [13/Jun/2024 16:48:34] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 16:48:34,707 172.21.0.1 - - [13/Jun/2024 16:48:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:48:34,708 172.21.0.1 - - [13/Jun/2024 16:48:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:48:34,710 172.21.0.1 - - [13/Jun/2024 16:48:34] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:48:34,711 172.21.0.1 - - [13/Jun/2024 16:48:34] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:48:34,714 172.21.0.1 - - [13/Jun/2024 16:48:34] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:48:34,715 172.21.0.1 - - [13/Jun/2024 16:48:34] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:48:34,718 172.21.0.1 - - [13/Jun/2024 16:48:34] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:48:34,742 172.21.0.1 - - [13/Jun/2024 16:48:34] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:48:34,746 172.21.0.1 - - [13/Jun/2024 16:48:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:48:36,772 172.21.0.1 - - [13/Jun/2024 16:48:36] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-13 16:48:36,823 172.21.0.1 - - [13/Jun/2024 16:48:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:48:36,825 172.21.0.1 - - [13/Jun/2024 16:48:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:48:36,827 172.21.0.1 - - [13/Jun/2024 16:48:36] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:48:36,828 172.21.0.1 - - [13/Jun/2024 16:48:36] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:48:36,831 172.21.0.1 - - [13/Jun/2024 16:48:36] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:48:36,833 172.21.0.1 - - [13/Jun/2024 16:48:36] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:48:36,835 172.21.0.1 - - [13/Jun/2024 16:48:36] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:48:36,839 172.21.0.1 - - [13/Jun/2024 16:48:36] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:48:36,840 172.21.0.1 - - [13/Jun/2024 16:48:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:49:21,005  * Detected change in '/opt/app.py', reloading
+2024-06-13 16:49:21,090  * Restarting with stat
+2024-06-13 16:49:21,447  * Debugger is active!
+2024-06-13 16:49:21,448  * Debugger PIN: 123-752-431
+2024-06-13 16:49:25,003 172.21.0.1 - - [13/Jun/2024 16:49:25] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 16:49:25,048 172.21.0.1 - - [13/Jun/2024 16:49:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:49:25,054 172.21.0.1 - - [13/Jun/2024 16:49:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:49:25,055 172.21.0.1 - - [13/Jun/2024 16:49:25] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:49:25,057 172.21.0.1 - - [13/Jun/2024 16:49:25] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:49:25,060 172.21.0.1 - - [13/Jun/2024 16:49:25] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:49:25,061 172.21.0.1 - - [13/Jun/2024 16:49:25] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:49:25,091 172.21.0.1 - - [13/Jun/2024 16:49:25] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:49:25,093 172.21.0.1 - - [13/Jun/2024 16:49:25] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:49:25,093 172.21.0.1 - - [13/Jun/2024 16:49:25] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:49:27,109 172.21.0.1 - - [13/Jun/2024 16:49:27] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-13 16:49:27,151 172.21.0.1 - - [13/Jun/2024 16:49:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:49:27,162 172.21.0.1 - - [13/Jun/2024 16:49:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:49:27,163 172.21.0.1 - - [13/Jun/2024 16:49:27] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:49:27,170 172.21.0.1 - - [13/Jun/2024 16:49:27] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:49:27,171 172.21.0.1 - - [13/Jun/2024 16:49:27] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:49:27,174 172.21.0.1 - - [13/Jun/2024 16:49:27] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:49:27,175 172.21.0.1 - - [13/Jun/2024 16:49:27] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:49:27,176 172.21.0.1 - - [13/Jun/2024 16:49:27] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:49:27,176 172.21.0.1 - - [13/Jun/2024 16:49:27] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:50:00,555  * Detected change in '/opt/app.py', reloading
+2024-06-13 16:50:00,629  * Restarting with stat
+2024-06-13 16:50:00,919  * Debugger is active!
+2024-06-13 16:50:00,920  * Debugger PIN: 123-752-431
+2024-06-13 16:50:05,019 172.21.0.1 - - [13/Jun/2024 16:50:05] "[35m[1mGET /show_connect HTTP/1.1[0m" 500 -
+2024-06-13 16:50:05,052 172.21.0.1 - - [13/Jun/2024 16:50:05] "GET /show_connect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-13 16:50:05,053 172.21.0.1 - - [13/Jun/2024 16:50:05] "GET /show_connect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-13 16:50:05,066 172.21.0.1 - - [13/Jun/2024 16:50:05] "GET /show_connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-13 16:50:05,068 172.21.0.1 - - [13/Jun/2024 16:50:05] "GET /show_connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-13 16:51:14,113  * Detected change in '/opt/app.py', reloading
+2024-06-13 16:51:14,182  * Restarting with stat
+2024-06-13 16:51:14,482  * Debugger is active!
+2024-06-13 16:51:14,482  * Debugger PIN: 123-752-431
+2024-06-13 16:51:17,731 172.21.0.1 - - [13/Jun/2024 16:51:17] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 16:51:17,760 172.21.0.1 - - [13/Jun/2024 16:51:17] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:51:17,764 172.21.0.1 - - [13/Jun/2024 16:51:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:51:17,765 172.21.0.1 - - [13/Jun/2024 16:51:17] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:51:17,767 172.21.0.1 - - [13/Jun/2024 16:51:17] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:51:17,768 172.21.0.1 - - [13/Jun/2024 16:51:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:51:17,770 172.21.0.1 - - [13/Jun/2024 16:51:17] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:51:17,772 172.21.0.1 - - [13/Jun/2024 16:51:17] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:51:17,776 172.21.0.1 - - [13/Jun/2024 16:51:17] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:51:17,777 172.21.0.1 - - [13/Jun/2024 16:51:17] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:51:21,683 172.21.0.1 - - [13/Jun/2024 16:51:21] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-13 16:51:21,739 172.21.0.1 - - [13/Jun/2024 16:51:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:51:21,744 172.21.0.1 - - [13/Jun/2024 16:51:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:51:21,747 172.21.0.1 - - [13/Jun/2024 16:51:21] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:51:21,748 172.21.0.1 - - [13/Jun/2024 16:51:21] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:51:21,750 172.21.0.1 - - [13/Jun/2024 16:51:21] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:51:21,752 172.21.0.1 - - [13/Jun/2024 16:51:21] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:51:21,753 172.21.0.1 - - [13/Jun/2024 16:51:21] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:51:21,755 172.21.0.1 - - [13/Jun/2024 16:51:21] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:51:21,757 172.21.0.1 - - [13/Jun/2024 16:51:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:53:35,853  * Detected change in '/opt/app.py', reloading
+2024-06-13 16:53:35,927  * Restarting with stat
+2024-06-13 18:28:41,741  * Restarting with stat
+2024-06-13 18:34:01,961  * Restarting with stat
+2024-06-13 18:46:07,139  * Restarting with stat
+2024-06-13 18:47:35,751  * Restarting with stat
+2024-06-13 18:50:09,499  * Restarting with stat
+2024-06-13 18:53:30,380  * Restarting with stat
+2024-06-13 19:29:16,126  * Restarting with stat
+2024-06-13 19:29:42,550  * Restarting with stat
+2024-06-13 19:30:40,050  * Restarting with stat
+2024-06-13 19:33:01,776  * Restarting with stat
+2024-06-13 19:41:00,327  * Restarting with stat
+2024-06-13 19:46:09,460  * Restarting with stat

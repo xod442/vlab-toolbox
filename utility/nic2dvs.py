@@ -61,61 +61,6 @@ def get_vm_on_dvs(content, dvs_name):
      return vm_list
 
 
-
-def revert_vm_snap_by_name(content,level,vm_name):
-
-    vm_list = content.viewManager.CreateContainerView(content.rootFolder,
-                                                     [vim.VirtualMachine],
-                                                    True)
-    vm_data = vm_list.view
-
-    #---------------------------------------------------------------------------
-    #
-    #  Step 1: Find VM in list of VMs
-    #
-    #---------------------------------------------------------------------------
-    
-    # revert all vms to snapshot named 202LAB and reboot or reset vm.
-    for vm in vm_data:
-        if vm.name == vm_name:
-            if vm.snapshot:
-                snapshot_tree = vm.snapshot.rootSnapshotList
-                snapshot_list = traverse_snapshots(snapshot_tree)
-                if snapshot_list:
-                    for snapshot in snapshot_list:
-
-
-                        if snapshot.name == level:
-                            message = "VM Name is %s ==> Processing snapshot %s for level %s........" % (vm.name,snapshot.name,level)
-                            logging.warning(message)
-                            when = str(datetime.datetime.now())
-                            # Power Off the VM
-                            vm.PowerOff()
-                            message = "%s ==> vm%s: %s has been powered OFF" % (counter,when,vm.name)
-                            logging.warning(message)
-                            response = write_log(db,message)
-                            # Revert VM
-                            response = revert_vm(snapshot.snapshot)
-                            # Power On the VM
-                            vm.ResetVM_Task()
-                            # Compose log information
-                            when = str(datetime.datetime.now())
-                            message = "%s ==> vm%s: %s has been reverted and powered back ON" % (counter,when,vm.name)
-                            logging.warning(message)
-                            response = write_log(db,message)
-                            counter = counter + 1
-
-
-
-    vm_list.Destroy()
-
-    when = str(datetime.datetime.now())
-    message = "%s ==> All All virtual machines have been reverted\n" % (when)
-    logging.warning(message)
-    response = write_log(db,message)
-
-    return None
-
 # Function to find a virtual machine by its name
 def find_vm_by_name(content, vm_name):
     container = content.viewManager.CreateContainerView(content.rootFolder, [vim.VirtualMachine], True)
@@ -140,6 +85,26 @@ def find_dvs_portgroup_by_name(content, dvs_name, portgroup_name):
         return portgroup
     else:
         return None
+    
+# Function to find the snapshot by its name
+def get_snapshot_by_name(snapshots, snap_name): 
+    for snapshot in snapshots: 
+        if snapshot.name == snap_name: 
+            return snapshot 
+        elif snapshot.childSnapshotList: 
+            result = get_snapshot_by_name(snapshot.childSnapshotList, snap_name) 
+            if result: 
+                return result 
+    return None
+
+# Function to revert the snapshot
+def revert_snapshot(vm, snapshot_name): 
+    snapshot = get_snapshot_by_name(vm.snapshot.rootSnapshotList, snapshot_name) 
+    if snapshot: 
+        task = snapshot.snapshot.RevertToSnapshot_Task() 
+        return task 
+    else: print(f"Snapshot '{snapshot_name}' not found for VM '{vm.name}'") 
+    return None
 
 def find_portgroup_by_name(content, dvs, portgroup_name):
     portgroup_view = content.viewManager.CreateContainerView(content.rootFolder, [vim.dvs.DistributedVirtualPortgroup], True)

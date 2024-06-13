@@ -28,7 +28,8 @@ __status__ = "Alpha"
 
 
 port_info = {
-            'dvs_name' : 'LG01-dvs-1',  
+            'dvs_name' : 'LG01-dvs-1', 
+            'afc_name': 'LG01-AFC', 
             'dvs_pg' : 'LG01-DP-01',
             'vm_name' :'LG01-WL01-V10-101',
             'vmnic_mac' : '00:50:56:b6:5c:a6',
