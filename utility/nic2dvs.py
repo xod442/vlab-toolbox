@@ -1,7 +1,27 @@
 from pyVmomi import vim
 from pyVim.task import WaitForTask
-
+from pyVim.connect import SmartConnect, Disconnect
 import logging
+import ssl
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+def login(port_info):
+
+    sslContext = ssl._create_unverified_context()
+    port="443"
+
+    # Create a connector to vsphere
+    si = SmartConnect(
+        host=port_info['vsp_ip'],
+        user=port_info['vsp_user'],
+        pwd=port_info['vsp_pass'],
+        port=port,
+        sslContext=sslContext
+    )
+    content = si.RetrieveContent()
+   
+    return content, si
 
 def list_dvs_switches(content):
     dvs_view = content.viewManager.CreateContainerView(content.rootFolder, [vim.DistributedVirtualSwitch], True)
@@ -15,57 +35,33 @@ def list_networks(content):
     network_view.Destroy()
     return networks
 
-def list_dvs_ports(content, dvs_name):
-    try:
-         
-        # Create a view of all the networks (including DVS)
-        container_view = content.viewManager.CreateContainerView(content.rootFolder, [vim.Network], True)
-
-        # Filter out the DistributedVirtualSwitch by name
-        dvs = None
-        for network in container_view.view:
-            if isinstance(network, vim.DistributedVirtualSwitch) and network.name == dvs_name:
-                dvs = network
-                break
-        
-        if dvs is None:
-            raise Exception(f"Distributed Virtual Switch '{dvs_name}' not found.")
-
-        # Retrieve all ports on the distributed virtual switch
-        port_list = dvs.FetchDVPorts()
-         rick.append('fail')
-        
-        # print(f"Port Key: {port.key}, Port Name: {port.config.name}")  
-    except Exception as e:
-            return e
+def get_vm_on_dvs(content, dvs_name):
    
-    return port_list
-
-def get_dvs_ports(content, dvs_name):
-    dvs_ports = []
-
-    # Get DistributedVirtualSwitch object
-    dvs = None
-    for dvs_mor in content.viewManager.CreateContainerView(content.rootFolder, [vim.DistributedVirtualSwitch], True).view:
-        if dvs_mor.name == dvs_name:
-            dvs = dvs_mor
+     # Retrieve all Distributed Virtual Switches 
+     container = content.viewManager.CreateContainerView(content.rootFolder, [vim.DistributedVirtualSwitch], True) 
+     dvs_list = container.view 
+     container.Destroy() 
+     # Find the specific DVS by name 
+     dvs = None 
+     for d in dvs_list: 
+        if d.name == dvs_name: 
+            dvs = d 
             break
 
-    if not dvs:
-        print("DVS '{}' not found.".format(dvs_name))
+     if not dvs: 
+        raise Exception(f"Distributed Virtual Switch '{dvs_name}' not found.") 
 
-    # Get DistributedVirtualPortgroup objects
+     # Retrieve all virtual machines connected to the DVS 
+     vm_list = [] 
+     for portgroup in dvs.portgroup: 
+        for vm in portgroup.vm: 
+            if vm not in vm_list: 
+                vm_list.append(vm) 
+                
+     return vm_list
 
-    dvs_portgroups = dvs.portgroup
-   
-    for dvs_pg in dvs_portgroups:
-         #
-        # Get DistributedVirtualPort objects
-        dvs_ports.append(dvs_pg)
-    rick.append('fail')
-    
 
-    return dvs_ports
+
 def revert_vm_snap_by_name(content,level,vm_name):
 
     vm_list = content.viewManager.CreateContainerView(content.rootFolder,
@@ -155,12 +151,11 @@ def find_portgroup_by_name(content, dvs, portgroup_name):
         return None
 
 def connect_vnic_to_portgroup(vm, portgroup_key, vnic_mac, switch_uuid, portgroup_name, portKey):
-    print('blue')
+    
     devices = vm.config.hardware.device
     for device in devices:
         if isinstance(device, vim.vm.device.VirtualVmxnet3) and device.macAddress == vnic_mac:
-            # bprint(device.backing.port.switchUuid)
-
+        
             nic_spec = vim.vm.device.VirtualDeviceSpec()
             nic_spec.device = device
             nic_spec.device.connectable.connected = True
@@ -171,7 +166,7 @@ def connect_vnic_to_portgroup(vm, portgroup_key, vnic_mac, switch_uuid, portgrou
             nic_spec.device.backing.port.portKey = portKey
             #
             config_spec = vim.vm.ConfigSpec(deviceChange=[nic_spec])
-            # print(nic_spec)
+         
             vm.ReconfigVM_Task(config_spec)
             print("Successfully connected vNIC with MAC {} to DVS port group.".format(vnic_mac))
 

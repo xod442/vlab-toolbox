@@ -10439,3 +10439,1037 @@
 2024-06-12 21:59:03,907 10.250.0.60 - - [12/Jun/2024 21:59:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
 2024-06-12 21:59:03,907 10.250.0.60 - - [12/Jun/2024 21:59:03] "GET /static/css/style.css HTTP/1.1" 200 -
 2024-06-12 21:59:03,909 10.250.0.60 - - [12/Jun/2024 21:59:03] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 22:10:08,122 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.0.3:5000
+2024-06-12 22:10:08,123 [33mPress CTRL+C to quit[0m
+2024-06-12 22:10:08,124  * Restarting with stat
+2024-06-12 22:10:08,514  * Debugger is active!
+2024-06-12 22:10:08,517  * Debugger PIN: 123-752-431
+2024-06-12 22:10:14,045 10.250.0.60 - - [12/Jun/2024 22:10:14] "GET / HTTP/1.1" 200 -
+2024-06-12 22:10:14,115 10.250.0.60 - - [12/Jun/2024 22:10:14] "GET /static/js/bootstrap-select.min.js HTTP/1.1" 200 -
+2024-06-12 22:10:14,116 10.250.0.60 - - [12/Jun/2024 22:10:14] "GET /static/js/script.js HTTP/1.1" 200 -
+2024-06-12 22:10:14,116 10.250.0.60 - - [12/Jun/2024 22:10:14] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2024-06-12 22:10:14,118 10.250.0.60 - - [12/Jun/2024 22:10:14] "GET /static/js/jquery.slicknav.min.js HTTP/1.1" 200 -
+2024-06-12 22:10:14,120 10.250.0.60 - - [12/Jun/2024 22:10:14] "GET /static/js/jquery.shuffle.min.js HTTP/1.1" 200 -
+2024-06-12 22:10:14,122 10.250.0.60 - - [12/Jun/2024 22:10:14] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-06-12 22:10:14,125 10.250.0.60 - - [12/Jun/2024 22:10:14] "GET /static/js/jquery.countTo.min.js HTTP/1.1" 200 -
+2024-06-12 22:10:14,124 10.250.0.60 - - [12/Jun/2024 22:10:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-06-12 22:10:14,129 10.250.0.60 - - [12/Jun/2024 22:10:14] "GET /static/css/responsive.css HTTP/1.1" 200 -
+2024-06-12 22:10:17,222 10.250.0.60 - - [12/Jun/2024 22:10:17] "[35m[1mGET /home?message=Returned+to+home+screen...EOL HTTP/1.1[0m" 500 -
+2024-06-12 22:10:17,258 10.250.0.60 - - [12/Jun/2024 22:10:17] "GET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-12 22:10:17,259 10.250.0.60 - - [12/Jun/2024 22:10:17] "GET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-12 22:10:17,270 10.250.0.60 - - [12/Jun/2024 22:10:17] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-12 22:12:22,893  * Detected change in '/opt/app.py', reloading
+2024-06-12 22:12:22,973  * Restarting with stat
+2024-06-12 22:12:23,363  * Debugger is active!
+2024-06-12 22:12:23,364  * Debugger PIN: 123-752-431
+2024-06-12 22:12:25,611 10.250.0.60 - - [12/Jun/2024 22:12:25] "GET / HTTP/1.1" 200 -
+2024-06-12 22:12:25,642 10.250.0.60 - - [12/Jun/2024 22:12:25] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:12:25,644 10.250.0.60 - - [12/Jun/2024 22:12:25] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:12:25,668 10.250.0.60 - - [12/Jun/2024 22:12:25] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:12:25,670 10.250.0.60 - - [12/Jun/2024 22:12:25] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:12:25,673 10.250.0.60 - - [12/Jun/2024 22:12:25] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:12:25,675 10.250.0.60 - - [12/Jun/2024 22:12:25] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 22:12:25,675 10.250.0.60 - - [12/Jun/2024 22:12:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 22:12:25,676 10.250.0.60 - - [12/Jun/2024 22:12:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:12:25,680 10.250.0.60 - - [12/Jun/2024 22:12:25] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 22:12:28,465 10.250.0.60 - - [12/Jun/2024 22:12:28] "[35m[1mGET /home?message=Returned+to+home+screen...EOL HTTP/1.1[0m" 500 -
+2024-06-12 22:12:28,492 10.250.0.60 - - [12/Jun/2024 22:12:28] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 22:12:28,493 10.250.0.60 - - [12/Jun/2024 22:12:28] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:12:36,090 Connecting to vsphere
+2024-06-12 22:12:36,094 10.250.0.60 - - [12/Jun/2024 22:12:36] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-12 22:12:36,125 10.250.0.60 - - [12/Jun/2024 22:12:36] "GET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-12 22:12:36,127 10.250.0.60 - - [12/Jun/2024 22:12:36] "GET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-12 22:12:36,140 10.250.0.60 - - [12/Jun/2024 22:12:36] "GET /test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-12 22:14:34,738  * Detected change in '/opt/app.py', reloading
+2024-06-12 22:14:34,842  * Restarting with stat
+2024-06-12 22:16:07,545  * Restarting with stat
+2024-06-12 22:16:07,921  * Debugger is active!
+2024-06-12 22:16:07,922  * Debugger PIN: 123-752-431
+2024-06-12 22:16:37,127 Connecting to vsphere
+2024-06-12 22:16:37,152 10.250.0.60 - - [12/Jun/2024 22:16:37] "GET /test HTTP/1.1" 200 -
+2024-06-12 22:16:37,194 10.250.0.60 - - [12/Jun/2024 22:16:37] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:16:37,196 10.250.0.60 - - [12/Jun/2024 22:16:37] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:16:37,199 10.250.0.60 - - [12/Jun/2024 22:16:37] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:16:37,200 10.250.0.60 - - [12/Jun/2024 22:16:37] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:16:37,201 10.250.0.60 - - [12/Jun/2024 22:16:37] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:16:37,212 10.250.0.60 - - [12/Jun/2024 22:16:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 22:16:37,214 10.250.0.60 - - [12/Jun/2024 22:16:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:16:37,214 10.250.0.60 - - [12/Jun/2024 22:16:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 22:16:37,216 10.250.0.60 - - [12/Jun/2024 22:16:37] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 22:16:44,275 Connecting to vsphere
+2024-06-12 22:16:44,289 10.250.0.60 - - [12/Jun/2024 22:16:44] "GET /test HTTP/1.1" 200 -
+2024-06-12 22:16:44,348 10.250.0.60 - - [12/Jun/2024 22:16:44] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:16:44,349 10.250.0.60 - - [12/Jun/2024 22:16:44] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:16:44,351 10.250.0.60 - - [12/Jun/2024 22:16:44] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:16:44,353 10.250.0.60 - - [12/Jun/2024 22:16:44] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:16:44,352 10.250.0.60 - - [12/Jun/2024 22:16:44] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:16:44,356 10.250.0.60 - - [12/Jun/2024 22:16:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 22:16:44,359 10.250.0.60 - - [12/Jun/2024 22:16:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 22:16:44,360 10.250.0.60 - - [12/Jun/2024 22:16:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:16:44,361 10.250.0.60 - - [12/Jun/2024 22:16:44] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 22:16:44,446 10.250.0.60 - - [12/Jun/2024 22:16:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-12 22:20:15,630  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 22:20:15,718  * Restarting with stat
+2024-06-12 22:20:16,092  * Debugger is active!
+2024-06-12 22:20:16,093  * Debugger PIN: 123-752-431
+2024-06-12 22:20:19,810 Connecting to vsphere
+2024-06-12 22:20:19,830 10.250.0.60 - - [12/Jun/2024 22:20:19] "GET /test HTTP/1.1" 200 -
+2024-06-12 22:20:19,875 10.250.0.60 - - [12/Jun/2024 22:20:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 22:20:19,884 10.250.0.60 - - [12/Jun/2024 22:20:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:20:19,886 10.250.0.60 - - [12/Jun/2024 22:20:19] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 22:20:19,887 10.250.0.60 - - [12/Jun/2024 22:20:19] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:20:19,889 10.250.0.60 - - [12/Jun/2024 22:20:19] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:20:19,890 10.250.0.60 - - [12/Jun/2024 22:20:19] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:20:19,892 10.250.0.60 - - [12/Jun/2024 22:20:19] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:20:19,902 10.250.0.60 - - [12/Jun/2024 22:20:19] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:20:19,902 10.250.0.60 - - [12/Jun/2024 22:20:19] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 22:20:45,180  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 22:20:45,263  * Restarting with stat
+2024-06-12 22:20:45,636  * Debugger is active!
+2024-06-12 22:20:45,637  * Debugger PIN: 123-752-431
+2024-06-12 22:20:49,506 Connecting to vsphere
+2024-06-12 22:20:49,537 10.250.0.60 - - [12/Jun/2024 22:20:49] "GET /test HTTP/1.1" 200 -
+2024-06-12 22:20:49,589 10.250.0.60 - - [12/Jun/2024 22:20:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 22:20:49,591 10.250.0.60 - - [12/Jun/2024 22:20:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:20:49,595 10.250.0.60 - - [12/Jun/2024 22:20:49] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 22:20:49,598 10.250.0.60 - - [12/Jun/2024 22:20:49] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:20:49,600 10.250.0.60 - - [12/Jun/2024 22:20:49] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:20:49,603 10.250.0.60 - - [12/Jun/2024 22:20:49] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:20:49,604 10.250.0.60 - - [12/Jun/2024 22:20:49] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:20:49,606 10.250.0.60 - - [12/Jun/2024 22:20:49] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:20:49,608 10.250.0.60 - - [12/Jun/2024 22:20:49] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 22:22:58,002  * Detected change in '/opt/app.py', reloading
+2024-06-12 22:22:58,090  * Restarting with stat
+2024-06-12 22:22:58,467  * Debugger is active!
+2024-06-12 22:22:58,468  * Debugger PIN: 123-752-431
+2024-06-12 22:23:15,744 Connecting to vsphere
+2024-06-12 22:23:15,768 10.250.0.60 - - [12/Jun/2024 22:23:15] "GET /test HTTP/1.1" 200 -
+2024-06-12 22:23:15,819 10.250.0.60 - - [12/Jun/2024 22:23:15] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:23:15,822 10.250.0.60 - - [12/Jun/2024 22:23:15] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:23:15,824 10.250.0.60 - - [12/Jun/2024 22:23:15] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:23:15,826 10.250.0.60 - - [12/Jun/2024 22:23:15] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:23:15,829 10.250.0.60 - - [12/Jun/2024 22:23:15] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 22:23:15,829 10.250.0.60 - - [12/Jun/2024 22:23:15] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:23:15,830 10.250.0.60 - - [12/Jun/2024 22:23:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 22:23:15,834 10.250.0.60 - - [12/Jun/2024 22:23:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:23:15,836 10.250.0.60 - - [12/Jun/2024 22:23:15] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 22:24:27,725  * Detected change in '/opt/app.py', reloading
+2024-06-12 22:24:27,808  * Restarting with stat
+2024-06-12 22:24:28,192  * Debugger is active!
+2024-06-12 22:24:28,193  * Debugger PIN: 123-752-431
+2024-06-12 22:24:30,725 Connecting to vsphere
+2024-06-12 22:24:30,759 10.250.0.60 - - [12/Jun/2024 22:24:30] "GET /test HTTP/1.1" 200 -
+2024-06-12 22:24:30,814 10.250.0.60 - - [12/Jun/2024 22:24:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 22:24:30,818 10.250.0.60 - - [12/Jun/2024 22:24:30] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:24:30,823 10.250.0.60 - - [12/Jun/2024 22:24:30] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:24:30,828 10.250.0.60 - - [12/Jun/2024 22:24:30] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:24:30,830 10.250.0.60 - - [12/Jun/2024 22:24:30] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:24:30,832 10.250.0.60 - - [12/Jun/2024 22:24:30] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:24:30,836 10.250.0.60 - - [12/Jun/2024 22:24:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:24:30,837 10.250.0.60 - - [12/Jun/2024 22:24:30] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 22:24:30,838 10.250.0.60 - - [12/Jun/2024 22:24:30] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 22:24:34,187 Connecting to vsphere
+2024-06-12 22:24:34,199 10.250.0.60 - - [12/Jun/2024 22:24:34] "GET /test HTTP/1.1" 200 -
+2024-06-12 22:24:34,256 10.250.0.60 - - [12/Jun/2024 22:24:34] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:24:34,258 10.250.0.60 - - [12/Jun/2024 22:24:34] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:24:34,260 10.250.0.60 - - [12/Jun/2024 22:24:34] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:24:34,262 10.250.0.60 - - [12/Jun/2024 22:24:34] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:24:34,264 10.250.0.60 - - [12/Jun/2024 22:24:34] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:24:34,265 10.250.0.60 - - [12/Jun/2024 22:24:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 22:24:34,270 10.250.0.60 - - [12/Jun/2024 22:24:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 22:24:34,272 10.250.0.60 - - [12/Jun/2024 22:24:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:24:34,274 10.250.0.60 - - [12/Jun/2024 22:24:34] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 22:30:20,190  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 22:30:20,279  * Restarting with stat
+2024-06-12 22:30:20,649  * Debugger is active!
+2024-06-12 22:30:20,649  * Debugger PIN: 123-752-431
+2024-06-12 22:34:02,270  * Detected change in '/opt/app.py', reloading
+2024-06-12 22:34:02,344  * Restarting with stat
+2024-06-12 22:34:02,718  * Debugger is active!
+2024-06-12 22:34:02,719  * Debugger PIN: 123-752-431
+2024-06-12 22:34:25,435 10.250.0.60 - - [12/Jun/2024 22:34:25] "[35m[1mGET /home?message=Returned+to+home+screen...EOL HTTP/1.1[0m" 500 -
+2024-06-12 22:34:25,490 10.250.0.60 - - [12/Jun/2024 22:34:25] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:34:25,511 10.250.0.60 - - [12/Jun/2024 22:34:25] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 22:37:02,222  * Detected change in '/opt/utility/port_info.py', reloading
+2024-06-12 22:37:02,294  * Restarting with stat
+2024-06-12 22:37:02,664  * Debugger is active!
+2024-06-12 22:37:02,665  * Debugger PIN: 123-752-431
+2024-06-12 22:38:20,889  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 22:38:20,974  * Restarting with stat
+2024-06-12 22:39:11,565  * Restarting with stat
+2024-06-12 22:39:11,941  * Debugger is active!
+2024-06-12 22:39:11,942  * Debugger PIN: 123-752-431
+2024-06-12 22:39:14,037 10.250.0.60 - - [12/Jun/2024 22:39:14] "[35m[1mGET /home?message=Returned+to+home+screen...EOL HTTP/1.1[0m" 500 -
+2024-06-12 22:39:14,065 10.250.0.60 - - [12/Jun/2024 22:39:14] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:39:14,066 10.250.0.60 - - [12/Jun/2024 22:39:14] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 22:39:50,055  * Detected change in '/opt/app.py', reloading
+2024-06-12 22:39:50,137  * Restarting with stat
+2024-06-12 22:39:50,539  * Debugger is active!
+2024-06-12 22:39:50,539  * Debugger PIN: 123-752-431
+2024-06-12 22:39:52,490 10.250.0.60 - - [12/Jun/2024 22:39:52] "[35m[1mGET /home?message=Returned+to+home+screen...EOL HTTP/1.1[0m" 500 -
+2024-06-12 22:39:52,513 10.250.0.60 - - [12/Jun/2024 22:39:52] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:39:52,514 10.250.0.60 - - [12/Jun/2024 22:39:52] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 22:39:54,283 10.250.0.60 - - [12/Jun/2024 22:39:54] "[35m[1mGET /home?message=Returned+to+home+screen...EOL HTTP/1.1[0m" 500 -
+2024-06-12 22:39:54,303 10.250.0.60 - - [12/Jun/2024 22:39:54] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:39:54,305 10.250.0.60 - - [12/Jun/2024 22:39:54] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 22:40:24,640  * Detected change in '/opt/app.py', reloading
+2024-06-12 22:40:24,726  * Restarting with stat
+2024-06-12 22:40:25,109  * Debugger is active!
+2024-06-12 22:40:25,109  * Debugger PIN: 123-752-431
+2024-06-12 22:40:27,881 10.250.0.60 - - [12/Jun/2024 22:40:27] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-12 22:40:27,923 10.250.0.60 - - [12/Jun/2024 22:40:27] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:40:27,925 10.250.0.60 - - [12/Jun/2024 22:40:27] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:40:27,931 10.250.0.60 - - [12/Jun/2024 22:40:27] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:40:27,956 10.250.0.60 - - [12/Jun/2024 22:40:27] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:40:27,961 10.250.0.60 - - [12/Jun/2024 22:40:27] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 22:40:27,961 10.250.0.60 - - [12/Jun/2024 22:40:27] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 22:40:27,964 10.250.0.60 - - [12/Jun/2024 22:40:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 22:40:27,967 10.250.0.60 - - [12/Jun/2024 22:40:27] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 22:40:27,968 10.250.0.60 - - [12/Jun/2024 22:40:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:40:37,683 10.250.0.60 - - [12/Jun/2024 22:40:37] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 22:40:37,726 10.250.0.60 - - [12/Jun/2024 22:40:37] "GET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-12 22:40:37,727 10.250.0.60 - - [12/Jun/2024 22:40:37] "GET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-12 22:40:37,737 10.250.0.60 - - [12/Jun/2024 22:40:37] "GET /list_dvs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-12 22:41:01,218  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 22:41:01,297  * Restarting with stat
+2024-06-12 22:41:01,665  * Debugger is active!
+2024-06-12 22:41:01,666  * Debugger PIN: 123-752-431
+2024-06-12 22:42:37,934  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 22:42:38,019  * Restarting with stat
+2024-06-12 22:42:38,405  * Debugger is active!
+2024-06-12 22:42:38,406  * Debugger PIN: 123-752-431
+2024-06-12 22:42:42,605 10.250.0.60 - - [12/Jun/2024 22:42:42] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 22:42:42,654 10.250.0.60 - - [12/Jun/2024 22:42:42] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:42:42,655 10.250.0.60 - - [12/Jun/2024 22:42:42] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 22:43:20,532  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 22:43:20,610  * Restarting with stat
+2024-06-12 22:43:20,985  * Debugger is active!
+2024-06-12 22:43:20,986  * Debugger PIN: 123-752-431
+2024-06-12 22:43:37,111 10.250.0.60 - - [12/Jun/2024 22:43:37] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 22:43:37,141 10.250.0.60 - - [12/Jun/2024 22:43:37] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:43:37,141 10.250.0.60 - - [12/Jun/2024 22:43:37] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 22:45:21,333  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 22:45:21,417  * Restarting with stat
+2024-06-12 22:45:21,822  * Debugger is active!
+2024-06-12 22:45:21,823  * Debugger PIN: 123-752-431
+2024-06-12 22:45:23,587 10.250.0.60 - - [12/Jun/2024 22:45:23] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 22:45:23,623 10.250.0.60 - - [12/Jun/2024 22:45:23] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:45:23,645 10.250.0.60 - - [12/Jun/2024 22:45:23] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 22:46:27,017  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 22:46:27,105  * Restarting with stat
+2024-06-12 22:46:27,492  * Debugger is active!
+2024-06-12 22:46:27,493  * Debugger PIN: 123-752-431
+2024-06-12 22:46:31,842 10.250.0.60 - - [12/Jun/2024 22:46:31] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 22:46:31,865 10.250.0.60 - - [12/Jun/2024 22:46:31] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:46:31,867 10.250.0.60 - - [12/Jun/2024 22:46:31] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 22:47:09,617  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 22:47:09,701  * Restarting with stat
+2024-06-12 22:47:10,111  * Debugger is active!
+2024-06-12 22:47:10,112  * Debugger PIN: 123-752-431
+2024-06-12 22:47:13,115 10.250.0.60 - - [12/Jun/2024 22:47:13] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 22:47:13,147 10.250.0.60 - - [12/Jun/2024 22:47:13] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:47:13,148 10.250.0.60 - - [12/Jun/2024 22:47:13] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 22:49:00,430  * Detected change in '/opt/t.py', reloading
+2024-06-12 22:49:00,507  * Restarting with stat
+2024-06-12 22:49:00,899  * Debugger is active!
+2024-06-12 22:49:00,900  * Debugger PIN: 123-752-431
+2024-06-12 22:49:31,994  * Detected change in '/opt/t.py', reloading
+2024-06-12 22:49:32,075  * Restarting with stat
+2024-06-12 22:49:32,476  * Debugger is active!
+2024-06-12 22:49:32,477  * Debugger PIN: 123-752-431
+2024-06-12 22:50:38,666  * Detected change in '/opt/t.py', reloading
+2024-06-12 22:50:38,744  * Restarting with stat
+2024-06-12 22:50:39,133  * Debugger is active!
+2024-06-12 22:50:39,134  * Debugger PIN: 123-752-431
+2024-06-12 22:51:15,240  * Detected change in '/opt/t.py', reloading
+2024-06-12 22:51:15,315  * Restarting with stat
+2024-06-12 22:51:15,708  * Debugger is active!
+2024-06-12 22:51:15,709  * Debugger PIN: 123-752-431
+2024-06-12 22:52:06,855  * Detected change in '/opt/utility/port_info.py', reloading
+2024-06-12 22:52:06,935  * Restarting with stat
+2024-06-12 22:52:07,305  * Debugger is active!
+2024-06-12 22:52:07,306  * Debugger PIN: 123-752-431
+2024-06-12 22:52:35,390  * Detected change in '/opt/t.py', reloading
+2024-06-12 22:52:35,468  * Restarting with stat
+2024-06-12 22:52:35,847  * Debugger is active!
+2024-06-12 22:52:35,848  * Debugger PIN: 123-752-431
+2024-06-12 22:53:00,924  * Detected change in '/opt/t.py', reloading
+2024-06-12 22:53:01,004  * Restarting with stat
+2024-06-12 22:53:01,435  * Debugger is active!
+2024-06-12 22:53:01,436  * Debugger PIN: 123-752-431
+2024-06-12 22:53:48,568  * Detected change in '/opt/app.py', reloading
+2024-06-12 22:53:48,640  * Restarting with stat
+2024-06-12 22:53:49,016  * Debugger is active!
+2024-06-12 22:53:49,017  * Debugger PIN: 123-752-431
+2024-06-12 22:54:13,087  * Detected change in '/opt/app.py', reloading
+2024-06-12 22:54:13,158  * Restarting with stat
+2024-06-12 22:54:13,561  * Debugger is active!
+2024-06-12 22:54:13,562  * Debugger PIN: 123-752-431
+2024-06-12 22:56:46,987  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 22:56:47,067  * Restarting with stat
+2024-06-12 22:56:47,448  * Debugger is active!
+2024-06-12 22:56:47,449  * Debugger PIN: 123-752-431
+2024-06-12 22:57:02,827 10.250.0.60 - - [12/Jun/2024 22:57:02] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 22:57:02,858 10.250.0.60 - - [12/Jun/2024 22:57:02] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:57:02,859 10.250.0.60 - - [12/Jun/2024 22:57:02] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 22:58:21,718  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 22:58:21,807  * Restarting with stat
+2024-06-12 22:58:22,185  * Debugger is active!
+2024-06-12 22:58:22,186  * Debugger PIN: 123-752-431
+2024-06-12 22:58:30,162 10.250.0.60 - - [12/Jun/2024 22:58:30] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 22:58:30,194 10.250.0.60 - - [12/Jun/2024 22:58:30] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 22:58:30,195 10.250.0.60 - - [12/Jun/2024 22:58:30] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 22:59:31,387  * Detected change in '/opt/t.py', reloading
+2024-06-12 22:59:31,463  * Restarting with stat
+2024-06-12 22:59:31,833  * Debugger is active!
+2024-06-12 22:59:31,834  * Debugger PIN: 123-752-431
+2024-06-12 22:59:58,919  * Detected change in '/opt/t.py', reloading
+2024-06-12 22:59:58,993  * Restarting with stat
+2024-06-12 22:59:59,360  * Debugger is active!
+2024-06-12 22:59:59,361  * Debugger PIN: 123-752-431
+2024-06-12 23:01:11,565  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:01:11,648  * Restarting with stat
+2024-06-12 23:01:12,044  * Debugger is active!
+2024-06-12 23:01:12,045  * Debugger PIN: 123-752-431
+2024-06-12 23:01:31,105  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:01:31,188  * Restarting with stat
+2024-06-12 23:01:31,574  * Debugger is active!
+2024-06-12 23:01:31,575  * Debugger PIN: 123-752-431
+2024-06-12 23:02:07,680  * Detected change in '/opt/app.py', reloading
+2024-06-12 23:02:07,758  * Restarting with stat
+2024-06-12 23:02:08,147  * Debugger is active!
+2024-06-12 23:02:08,148  * Debugger PIN: 123-752-431
+2024-06-12 23:02:10,254 10.250.0.60 - - [12/Jun/2024 23:02:10] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 23:02:10,285 10.250.0.60 - - [12/Jun/2024 23:02:10] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:02:10,287 10.250.0.60 - - [12/Jun/2024 23:02:10] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:03:38,179 172.21.0.1 - - [12/Jun/2024 23:03:38] "GET / HTTP/1.1" 200 -
+2024-06-12 23:03:38,266 172.21.0.1 - - [12/Jun/2024 23:03:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-06-12 23:03:38,269 172.21.0.1 - - [12/Jun/2024 23:03:38] "GET /static/css/responsive.css HTTP/1.1" 200 -
+2024-06-12 23:03:38,271 172.21.0.1 - - [12/Jun/2024 23:03:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-06-12 23:03:38,272 172.21.0.1 - - [12/Jun/2024 23:03:38] "GET /static/js/jquery.countTo.min.js HTTP/1.1" 200 -
+2024-06-12 23:03:38,278 172.21.0.1 - - [12/Jun/2024 23:03:38] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2024-06-12 23:03:38,286 172.21.0.1 - - [12/Jun/2024 23:03:38] "GET /static/js/bootstrap-select.min.js HTTP/1.1" 200 -
+2024-06-12 23:03:38,287 172.21.0.1 - - [12/Jun/2024 23:03:38] "GET /static/js/jquery.shuffle.min.js HTTP/1.1" 200 -
+2024-06-12 23:03:38,288 172.21.0.1 - - [12/Jun/2024 23:03:38] "GET /static/js/jquery.slicknav.min.js HTTP/1.1" 200 -
+2024-06-12 23:03:38,295 172.21.0.1 - - [12/Jun/2024 23:03:38] "GET /static/js/script.js HTTP/1.1" 200 -
+2024-06-12 23:03:45,735 172.21.0.1 - - [12/Jun/2024 23:03:45] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 23:03:45,772 172.21.0.1 - - [12/Jun/2024 23:03:45] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:03:45,773 172.21.0.1 - - [12/Jun/2024 23:03:45] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:03:45,786 172.21.0.1 - - [12/Jun/2024 23:03:45] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:03:51,626  * To enable the debugger you need to enter the security pin:
+2024-06-12 23:03:51,626  * Debugger pin code: 123-752-431
+2024-06-12 23:03:51,626 172.21.0.1 - - [12/Jun/2024 23:03:51] "GET /list_dvs?__debugger__=yes&cmd=printpin&s=6FwkL217qf3h0u0UaTFC HTTP/1.1" 200 -
+2024-06-12 23:04:23,738 172.21.0.1 - - [12/Jun/2024 23:04:23] "GET /list_dvs?__debugger__=yes&cmd=pinauth&pin=123-752-431&s=6FwkL217qf3h0u0UaTFC HTTP/1.1" 200 -
+2024-06-12 23:04:35,921 172.21.0.1 - - [12/Jun/2024 23:04:35] "GET /list_dvs?&__debugger__=yes&cmd=port_info&frm=126548661865920&s=6FwkL217qf3h0u0UaTFC HTTP/1.1" 200 -
+2024-06-12 23:04:35,927 172.21.0.1 - - [12/Jun/2024 23:04:35] "GET /list_dvs?__debugger__=yes&cmd=resource&f=more.png HTTP/1.1" 200 -
+2024-06-12 23:04:56,887 172.21.0.1 - - [12/Jun/2024 23:04:56] "GET /list_dvs?&__debugger__=yes&cmd=port_info['vsp_ip']&frm=126548661865920&s=6FwkL217qf3h0u0UaTFC HTTP/1.1" 200 -
+2024-06-12 23:06:33,554 172.21.0.1 - - [12/Jun/2024 23:06:33] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 23:06:33,577 172.21.0.1 - - [12/Jun/2024 23:06:33] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:06:33,577 172.21.0.1 - - [12/Jun/2024 23:06:33] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:06:33,592 172.21.0.1 - - [12/Jun/2024 23:06:33] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:06:50,970  * Detected change in '/opt/app.py', reloading
+2024-06-12 23:06:51,051  * Restarting with stat
+2024-06-12 23:07:26,399  * Restarting with stat
+2024-06-12 23:07:26,807  * Debugger is active!
+2024-06-12 23:07:26,808  * Debugger PIN: 123-752-431
+2024-06-12 23:07:28,628 Connecting to vsphere
+2024-06-12 23:07:28,652 172.21.0.1 - - [12/Jun/2024 23:07:28] "GET /test HTTP/1.1" 200 -
+2024-06-12 23:07:28,690 172.21.0.1 - - [12/Jun/2024 23:07:28] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:28,693 172.21.0.1 - - [12/Jun/2024 23:07:28] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:28,694 172.21.0.1 - - [12/Jun/2024 23:07:28] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:28,697 172.21.0.1 - - [12/Jun/2024 23:07:28] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:28,699 172.21.0.1 - - [12/Jun/2024 23:07:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:28,702 172.21.0.1 - - [12/Jun/2024 23:07:28] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:28,702 172.21.0.1 - - [12/Jun/2024 23:07:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:07:28,703 172.21.0.1 - - [12/Jun/2024 23:07:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 23:07:28,704 172.21.0.1 - - [12/Jun/2024 23:07:28] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 23:07:32,146 Connecting to vsphere
+2024-06-12 23:07:32,160 172.21.0.1 - - [12/Jun/2024 23:07:32] "GET /test HTTP/1.1" 200 -
+2024-06-12 23:07:32,203 172.21.0.1 - - [12/Jun/2024 23:07:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 23:07:32,206 172.21.0.1 - - [12/Jun/2024 23:07:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:07:32,207 172.21.0.1 - - [12/Jun/2024 23:07:32] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 23:07:32,210 172.21.0.1 - - [12/Jun/2024 23:07:32] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:32,211 172.21.0.1 - - [12/Jun/2024 23:07:32] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:32,213 172.21.0.1 - - [12/Jun/2024 23:07:32] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:32,214 172.21.0.1 - - [12/Jun/2024 23:07:32] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:32,216 172.21.0.1 - - [12/Jun/2024 23:07:32] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:32,216 172.21.0.1 - - [12/Jun/2024 23:07:32] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:40,013 Connecting to vsphere
+2024-06-12 23:07:40,026 172.21.0.1 - - [12/Jun/2024 23:07:40] "GET /test HTTP/1.1" 200 -
+2024-06-12 23:07:40,069 172.21.0.1 - - [12/Jun/2024 23:07:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 23:07:40,071 172.21.0.1 - - [12/Jun/2024 23:07:40] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 23:07:40,073 172.21.0.1 - - [12/Jun/2024 23:07:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:07:40,074 172.21.0.1 - - [12/Jun/2024 23:07:40] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:40,074 172.21.0.1 - - [12/Jun/2024 23:07:40] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:40,078 172.21.0.1 - - [12/Jun/2024 23:07:40] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:40,080 172.21.0.1 - - [12/Jun/2024 23:07:40] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:40,083 172.21.0.1 - - [12/Jun/2024 23:07:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 23:07:40,084 172.21.0.1 - - [12/Jun/2024 23:07:40] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:09:15,126  * Detected change in '/opt/app.py', reloading
+2024-06-12 23:09:15,216  * Restarting with stat
+2024-06-12 23:09:15,809  * Debugger is active!
+2024-06-12 23:09:15,811  * Debugger PIN: 123-752-431
+2024-06-12 23:09:19,891 172.21.0.1 - - [12/Jun/2024 23:09:19] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 23:09:19,951 172.21.0.1 - - [12/Jun/2024 23:09:19] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:09:19,952 172.21.0.1 - - [12/Jun/2024 23:09:19] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:09:19,964 172.21.0.1 - - [12/Jun/2024 23:09:19] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:10:33,031  * Detected change in '/opt/app.py', reloading
+2024-06-12 23:10:33,106  * Restarting with stat
+2024-06-12 23:10:33,474  * Debugger is active!
+2024-06-12 23:10:33,475  * Debugger PIN: 123-752-431
+2024-06-12 23:10:45,329 172.21.0.1 - - [12/Jun/2024 23:10:45] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 23:10:45,363 172.21.0.1 - - [12/Jun/2024 23:10:45] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:10:45,364 172.21.0.1 - - [12/Jun/2024 23:10:45] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:10:45,380 172.21.0.1 - - [12/Jun/2024 23:10:45] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:11:01,277 172.21.0.1 - - [12/Jun/2024 23:11:01] "GET /list_dvs?&__debugger__=yes&cmd=port_info&frm=136309596406976&s=Y9mT5Jq3nbJZwEU6D4kR HTTP/1.1" 200 -
+2024-06-12 23:11:01,284 172.21.0.1 - - [12/Jun/2024 23:11:01] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=more.png HTTP/1.1[0m" 304 -
+2024-06-12 23:11:25,644 172.21.0.1 - - [12/Jun/2024 23:11:25] "GET /list_dvs?__debugger__=yes&cmd=resource&f=less.png HTTP/1.1" 200 -
+2024-06-12 23:12:15,770  * Detected change in '/opt/utility/port_info.py', reloading
+2024-06-12 23:12:15,850  * Restarting with stat
+2024-06-12 23:12:16,235  * Debugger is active!
+2024-06-12 23:12:16,236  * Debugger PIN: 123-752-431
+2024-06-12 23:12:43,317  * Detected change in '/opt/app.py', reloading
+2024-06-12 23:12:43,392  * Restarting with stat
+2024-06-12 23:12:43,765  * Debugger is active!
+2024-06-12 23:12:43,766  * Debugger PIN: 123-752-431
+2024-06-12 23:12:47,837 172.21.0.1 - - [12/Jun/2024 23:12:47] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 23:12:47,873 172.21.0.1 - - [12/Jun/2024 23:12:47] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:12:47,874 172.21.0.1 - - [12/Jun/2024 23:12:47] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:12:47,884 172.21.0.1 - - [12/Jun/2024 23:12:47] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:13:12,313 172.21.0.1 - - [12/Jun/2024 23:13:12] "GET /list_dvs?&__debugger__=yes&cmd=port_info['vsp_ip&frm=134505727296848&s=ChdYvARNpIda1o3mqxqr HTTP/1.1" 200 -
+2024-06-12 23:13:26,095 172.21.0.1 - - [12/Jun/2024 23:13:26] "GET /list_dvs?&__debugger__=yes&cmd=port_info['vsp_ip']&frm=134505727296848&s=ChdYvARNpIda1o3mqxqr HTTP/1.1" 200 -
+2024-06-12 23:14:27,072  * Detected change in '/opt/app.py', reloading
+2024-06-12 23:14:27,154  * Restarting with stat
+2024-06-12 23:14:27,544  * Debugger is active!
+2024-06-12 23:14:27,545  * Debugger PIN: 123-752-431
+2024-06-12 23:14:53,622  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:14:53,697  * Restarting with stat
+2024-06-12 23:14:54,089  * Debugger is active!
+2024-06-12 23:14:54,090  * Debugger PIN: 123-752-431
+2024-06-12 23:15:02,119  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:15:02,200  * Restarting with stat
+2024-06-12 23:15:02,569  * Debugger is active!
+2024-06-12 23:15:02,569  * Debugger PIN: 123-752-431
+2024-06-12 23:15:07,920 172.21.0.1 - - [12/Jun/2024 23:15:07] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 23:15:07,945 172.21.0.1 - - [12/Jun/2024 23:15:07] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:15:07,946 172.21.0.1 - - [12/Jun/2024 23:15:07] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:15:07,962 172.21.0.1 - - [12/Jun/2024 23:15:07] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:15:36,672  * Detected change in '/opt/app.py', reloading
+2024-06-12 23:15:36,768  * Restarting with stat
+2024-06-12 23:15:37,193  * Debugger is active!
+2024-06-12 23:15:37,194  * Debugger PIN: 123-752-431
+2024-06-12 23:15:57,258  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:15:57,332  * Restarting with stat
+2024-06-12 23:15:57,700  * Debugger is active!
+2024-06-12 23:15:57,701  * Debugger PIN: 123-752-431
+2024-06-12 23:16:07,090 172.21.0.1 - - [12/Jun/2024 23:16:07] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 23:16:07,112 172.21.0.1 - - [12/Jun/2024 23:16:07] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:16:07,113 172.21.0.1 - - [12/Jun/2024 23:16:07] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:16:07,127 172.21.0.1 - - [12/Jun/2024 23:16:07] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:16:51,858  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:16:51,959  * Restarting with stat
+2024-06-12 23:16:52,348  * Debugger is active!
+2024-06-12 23:16:52,348  * Debugger PIN: 123-752-431
+2024-06-12 23:16:54,778 172.21.0.1 - - [12/Jun/2024 23:16:54] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 23:16:54,809 172.21.0.1 - - [12/Jun/2024 23:16:54] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:16:54,811 172.21.0.1 - - [12/Jun/2024 23:16:54] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:16:54,824 172.21.0.1 - - [12/Jun/2024 23:16:54] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:17:05,463 172.21.0.1 - - [12/Jun/2024 23:17:05] "GET /list_dvs?&__debugger__=yes&cmd=port_info&frm=130907531674960&s=wLWvqGNfbA8VtK64HX5e HTTP/1.1" 200 -
+2024-06-12 23:17:05,469 172.21.0.1 - - [12/Jun/2024 23:17:05] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=more.png HTTP/1.1[0m" 304 -
+2024-06-12 23:17:11,733 172.21.0.1 - - [12/Jun/2024 23:17:11] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=less.png HTTP/1.1[0m" 304 -
+2024-06-12 23:18:08,747 172.21.0.1 - - [12/Jun/2024 23:18:08] "GET /list_dvs?&__debugger__=yes&cmd=port_info['vsp_ip']&frm=130907531674960&s=wLWvqGNfbA8VtK64HX5e HTTP/1.1" 200 -
+2024-06-12 23:18:28,628  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:18:28,707  * Restarting with stat
+2024-06-12 23:18:29,089  * Debugger is active!
+2024-06-12 23:18:29,090  * Debugger PIN: 123-752-431
+2024-06-12 23:18:41,355 172.21.0.1 - - [12/Jun/2024 23:18:41] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 23:18:41,377 172.21.0.1 - - [12/Jun/2024 23:18:41] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:18:41,383 172.21.0.1 - - [12/Jun/2024 23:18:41] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:18:41,394 172.21.0.1 - - [12/Jun/2024 23:18:41] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:19:41,303  * Detected change in '/opt/app.py', reloading
+2024-06-12 23:19:41,382  * Restarting with stat
+2024-06-12 23:19:41,773  * Debugger is active!
+2024-06-12 23:19:41,774  * Debugger PIN: 123-752-431
+2024-06-12 23:19:45,021 172.21.0.1 - - [12/Jun/2024 23:19:45] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 23:19:45,044 172.21.0.1 - - [12/Jun/2024 23:19:45] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:19:45,046 172.21.0.1 - - [12/Jun/2024 23:19:45] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:19:45,057 172.21.0.1 - - [12/Jun/2024 23:19:45] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:19:54,077 172.21.0.1 - - [12/Jun/2024 23:19:54] "GET /list_dvs?&__debugger__=yes&cmd=content&frm=127971526083632&s=F5FuQgce8HPxiMb9u6r2 HTTP/1.1" 200 -
+2024-06-12 23:23:18,390  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:23:18,471  * Restarting with stat
+2024-06-12 23:23:18,852  * Debugger is active!
+2024-06-12 23:23:18,853  * Debugger PIN: 123-752-431
+2024-06-12 23:23:21,705 172.21.0.1 - - [12/Jun/2024 23:23:21] "[35m[1mGET /list_dvs HTTP/1.1[0m" 500 -
+2024-06-12 23:23:21,729 172.21.0.1 - - [12/Jun/2024 23:23:21] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:23:21,730 172.21.0.1 - - [12/Jun/2024 23:23:21] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:23:21,745 172.21.0.1 - - [12/Jun/2024 23:23:21] "[36mGET /list_dvs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:23:45,935  * Detected change in '/opt/app.py', reloading
+2024-06-12 23:23:46,022  * Restarting with stat
+2024-06-12 23:23:46,419  * Debugger is active!
+2024-06-12 23:23:46,420  * Debugger PIN: 123-752-431
+2024-06-12 23:23:48,319 172.21.0.1 - - [12/Jun/2024 23:23:48] "GET /list_dvs HTTP/1.1" 200 -
+2024-06-12 23:23:48,352 172.21.0.1 - - [12/Jun/2024 23:23:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 23:23:48,353 172.21.0.1 - - [12/Jun/2024 23:23:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:23:48,356 172.21.0.1 - - [12/Jun/2024 23:23:48] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 23:23:48,357 172.21.0.1 - - [12/Jun/2024 23:23:48] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:23:48,358 172.21.0.1 - - [12/Jun/2024 23:23:48] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:23:48,360 172.21.0.1 - - [12/Jun/2024 23:23:48] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:23:48,363 172.21.0.1 - - [12/Jun/2024 23:23:48] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 23:23:48,363 172.21.0.1 - - [12/Jun/2024 23:23:48] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:23:48,365 172.21.0.1 - - [12/Jun/2024 23:23:48] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:29,901 172.21.0.1 - - [12/Jun/2024 23:29:29] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-12 23:29:29,960 172.21.0.1 - - [12/Jun/2024 23:29:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 23:29:29,962 172.21.0.1 - - [12/Jun/2024 23:29:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:29:29,963 172.21.0.1 - - [12/Jun/2024 23:29:29] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 23:29:29,965 172.21.0.1 - - [12/Jun/2024 23:29:29] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:29,966 172.21.0.1 - - [12/Jun/2024 23:29:29] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:29,967 172.21.0.1 - - [12/Jun/2024 23:29:29] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:29,974 172.21.0.1 - - [12/Jun/2024 23:29:29] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:29,975 172.21.0.1 - - [12/Jun/2024 23:29:29] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:29,981 172.21.0.1 - - [12/Jun/2024 23:29:29] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:37,658 Connecting to vsphere
+2024-06-12 23:29:37,672 172.21.0.1 - - [12/Jun/2024 23:29:37] "GET /test HTTP/1.1" 200 -
+2024-06-12 23:29:37,722 172.21.0.1 - - [12/Jun/2024 23:29:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 23:29:37,724 172.21.0.1 - - [12/Jun/2024 23:29:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:29:37,726 172.21.0.1 - - [12/Jun/2024 23:29:37] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 23:29:37,727 172.21.0.1 - - [12/Jun/2024 23:29:37] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:37,728 172.21.0.1 - - [12/Jun/2024 23:29:37] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:37,732 172.21.0.1 - - [12/Jun/2024 23:29:37] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:37,738 172.21.0.1 - - [12/Jun/2024 23:29:37] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:37,742 172.21.0.1 - - [12/Jun/2024 23:29:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:37,742 172.21.0.1 - - [12/Jun/2024 23:29:37] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:42,765 172.21.0.1 - - [12/Jun/2024 23:29:42] "GET /list_dvs HTTP/1.1" 200 -
+2024-06-12 23:29:42,820 172.21.0.1 - - [12/Jun/2024 23:29:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 23:29:42,825 172.21.0.1 - - [12/Jun/2024 23:29:42] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:42,826 172.21.0.1 - - [12/Jun/2024 23:29:42] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 23:29:42,827 172.21.0.1 - - [12/Jun/2024 23:29:42] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:42,830 172.21.0.1 - - [12/Jun/2024 23:29:42] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:42,830 172.21.0.1 - - [12/Jun/2024 23:29:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:29:42,832 172.21.0.1 - - [12/Jun/2024 23:29:42] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:42,834 172.21.0.1 - - [12/Jun/2024 23:29:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 23:29:42,834 172.21.0.1 - - [12/Jun/2024 23:29:42] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:32:08,864  * Detected change in '/opt/app.py', reloading
+2024-06-12 23:32:08,951  * Restarting with stat
+2024-06-12 23:35:22,668  * Restarting with stat
+2024-06-12 23:36:46,123  * Restarting with stat
+2024-06-12 23:36:46,519  * Debugger is active!
+2024-06-12 23:36:46,520  * Debugger PIN: 123-752-431
+2024-06-12 23:36:49,714 Connecting to vsphere
+2024-06-12 23:36:49,736 10.250.0.60 - - [12/Jun/2024 23:36:49] "GET /test HTTP/1.1" 200 -
+2024-06-12 23:36:49,767 10.250.0.60 - - [12/Jun/2024 23:36:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:36:49,775 10.250.0.60 - - [12/Jun/2024 23:36:49] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:36:49,776 10.250.0.60 - - [12/Jun/2024 23:36:49] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:36:49,777 10.250.0.60 - - [12/Jun/2024 23:36:49] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:36:49,779 10.250.0.60 - - [12/Jun/2024 23:36:49] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:36:49,780 10.250.0.60 - - [12/Jun/2024 23:36:49] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:36:49,782 10.250.0.60 - - [12/Jun/2024 23:36:49] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 23:36:49,783 10.250.0.60 - - [12/Jun/2024 23:36:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 23:36:49,784 10.250.0.60 - - [12/Jun/2024 23:36:49] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 23:36:53,100 Connecting to vsphere
+2024-06-12 23:36:53,113 10.250.0.60 - - [12/Jun/2024 23:36:53] "GET /test HTTP/1.1" 200 -
+2024-06-12 23:36:53,169 10.250.0.60 - - [12/Jun/2024 23:36:53] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:36:53,172 10.250.0.60 - - [12/Jun/2024 23:36:53] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:36:53,173 10.250.0.60 - - [12/Jun/2024 23:36:53] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:36:53,175 10.250.0.60 - - [12/Jun/2024 23:36:53] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:36:53,176 10.250.0.60 - - [12/Jun/2024 23:36:53] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 23:36:53,177 10.250.0.60 - - [12/Jun/2024 23:36:53] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:36:53,180 10.250.0.60 - - [12/Jun/2024 23:36:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 23:36:53,182 10.250.0.60 - - [12/Jun/2024 23:36:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:36:53,183 10.250.0.60 - - [12/Jun/2024 23:36:53] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 23:38:29,824  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:38:29,907  * Restarting with stat
+2024-06-12 23:38:30,277  * Debugger is active!
+2024-06-12 23:38:30,278  * Debugger PIN: 123-752-431
+2024-06-12 23:38:36,194 Connecting to vsphere
+2024-06-12 23:38:36,215 10.250.0.60 - - [12/Jun/2024 23:38:36] "GET /test HTTP/1.1" 200 -
+2024-06-12 23:38:36,249 10.250.0.60 - - [12/Jun/2024 23:38:36] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:36,250 10.250.0.60 - - [12/Jun/2024 23:38:36] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:36,254 10.250.0.60 - - [12/Jun/2024 23:38:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 23:38:36,255 10.250.0.60 - - [12/Jun/2024 23:38:36] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:36,257 10.250.0.60 - - [12/Jun/2024 23:38:36] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:36,259 10.250.0.60 - - [12/Jun/2024 23:38:36] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 23:38:36,262 10.250.0.60 - - [12/Jun/2024 23:38:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:38:36,260 10.250.0.60 - - [12/Jun/2024 23:38:36] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:36,263 10.250.0.60 - - [12/Jun/2024 23:38:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:39,944 10.250.0.60 - - [12/Jun/2024 23:38:39] "GET /list_dvs HTTP/1.1" 200 -
+2024-06-12 23:38:39,997 10.250.0.60 - - [12/Jun/2024 23:38:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 23:38:39,998 10.250.0.60 - - [12/Jun/2024 23:38:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:38:40,003 10.250.0.60 - - [12/Jun/2024 23:38:40] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:40,004 10.250.0.60 - - [12/Jun/2024 23:38:40] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 23:38:40,009 10.250.0.60 - - [12/Jun/2024 23:38:40] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:40,012 10.250.0.60 - - [12/Jun/2024 23:38:40] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:40,013 10.250.0.60 - - [12/Jun/2024 23:38:40] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:40,014 10.250.0.60 - - [12/Jun/2024 23:38:40] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:40,015 10.250.0.60 - - [12/Jun/2024 23:38:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:44,071 Connecting to vsphere
+2024-06-12 23:38:44,083 10.250.0.60 - - [12/Jun/2024 23:38:44] "GET /test HTTP/1.1" 200 -
+2024-06-12 23:38:44,139 10.250.0.60 - - [12/Jun/2024 23:38:44] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:44,141 10.250.0.60 - - [12/Jun/2024 23:38:44] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:44,143 10.250.0.60 - - [12/Jun/2024 23:38:44] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:44,145 10.250.0.60 - - [12/Jun/2024 23:38:44] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:44,148 10.250.0.60 - - [12/Jun/2024 23:38:44] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:44,149 10.250.0.60 - - [12/Jun/2024 23:38:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-12 23:38:44,153 10.250.0.60 - - [12/Jun/2024 23:38:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-12 23:38:44,155 10.250.0.60 - - [12/Jun/2024 23:38:44] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-12 23:38:44,156 10.250.0.60 - - [12/Jun/2024 23:38:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:40:31,633  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:40:31,723  * Restarting with stat
+2024-06-12 23:40:32,117  * Debugger is active!
+2024-06-12 23:40:32,117  * Debugger PIN: 123-752-431
+2024-06-12 23:40:35,883 Connecting to vsphere
+2024-06-12 23:40:35,893 10.250.0.60 - - [12/Jun/2024 23:40:35] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-12 23:40:35,936 10.250.0.60 - - [12/Jun/2024 23:40:35] "[36mGET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:40:35,938 10.250.0.60 - - [12/Jun/2024 23:40:35] "[36mGET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:40:56,793 Connecting to vsphere
+2024-06-12 23:40:56,801 172.21.0.1 - - [12/Jun/2024 23:40:56] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-12 23:40:56,825 172.21.0.1 - - [12/Jun/2024 23:40:56] "[36mGET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:40:56,827 172.21.0.1 - - [12/Jun/2024 23:40:56] "[36mGET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:40:56,838 172.21.0.1 - - [12/Jun/2024 23:40:56] "[36mGET /test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:41:20,465 172.21.0.1 - - [12/Jun/2024 23:41:20] "GET /test?&__debugger__=yes&cmd=container_view&frm=138020196095104&s=wnnITQEO7QUlZM8bX8Fj HTTP/1.1" 200 -
+2024-06-12 23:41:57,778 172.21.0.1 - - [12/Jun/2024 23:41:57] "GET /test?&__debugger__=yes&cmd=for%20network%20in%20container_view.view:&frm=138020196095104&s=wnnITQEO7QUlZM8bX8Fj HTTP/1.1" 200 -
+2024-06-12 23:42:49,294 172.21.0.1 - - [12/Jun/2024 23:42:49] "GET /test?&__debugger__=yes&cmd=print(network)&frm=138020196095104&s=wnnITQEO7QUlZM8bX8Fj HTTP/1.1" 200 -
+2024-06-12 23:42:56,275 172.21.0.1 - - [12/Jun/2024 23:42:56] "GET /test?&__debugger__=yes&cmd=for%20network%20in%20container_view.view:&frm=138020196095104&s=wnnITQEO7QUlZM8bX8Fj HTTP/1.1" 200 -
+2024-06-12 23:43:16,919 172.21.0.1 - - [12/Jun/2024 23:43:16] "GET /test?&__debugger__=yes&cmd=%20%20%20%20print(network)&frm=138020196095104&s=wnnITQEO7QUlZM8bX8Fj HTTP/1.1" 200 -
+2024-06-12 23:43:59,545 172.21.0.1 - - [12/Jun/2024 23:43:59] "GET /test?&__debugger__=yes&cmd=for%20network%20in%20container_view.view:&frm=138020196095104&s=wnnITQEO7QUlZM8bX8Fj HTTP/1.1" 200 -
+2024-06-12 23:44:06,764 172.21.0.1 - - [12/Jun/2024 23:44:06] "GET /test?&__debugger__=yes&cmd=%20%20%20%20print(network.name)&frm=138020196095104&s=wnnITQEO7QUlZM8bX8Fj HTTP/1.1" 200 -
+2024-06-12 23:49:10,601  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:49:10,696  * Restarting with stat
+2024-06-12 23:49:11,094  * Debugger is active!
+2024-06-12 23:49:11,095  * Debugger PIN: 123-752-431
+2024-06-12 23:49:14,809 Connecting to vsphere
+2024-06-12 23:49:14,894 172.21.0.1 - - [12/Jun/2024 23:49:14] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-12 23:49:14,927 172.21.0.1 - - [12/Jun/2024 23:49:14] "[36mGET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:49:14,927 172.21.0.1 - - [12/Jun/2024 23:49:14] "[36mGET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:49:14,942 172.21.0.1 - - [12/Jun/2024 23:49:14] "[36mGET /test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:49:44,211 172.21.0.1 - - [12/Jun/2024 23:49:44] "GET /test?&__debugger__=yes&cmd=net_name&frm=138358882452672&s=Arce80L0UtveUigro5Yt HTTP/1.1" 200 -
+2024-06-12 23:50:06,879 Connecting to vsphere
+2024-06-12 23:50:06,952 172.21.0.1 - - [12/Jun/2024 23:50:06] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-12 23:50:06,990 172.21.0.1 - - [12/Jun/2024 23:50:06] "[36mGET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:50:06,992 172.21.0.1 - - [12/Jun/2024 23:50:06] "[36mGET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:50:07,005 172.21.0.1 - - [12/Jun/2024 23:50:07] "[36mGET /test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:50:39,393 172.21.0.1 - - [12/Jun/2024 23:50:39] "GET /test?&__debugger__=yes&cmd=network&frm=138358882456416&s=Arce80L0UtveUigro5Yt HTTP/1.1" 200 -
+2024-06-12 23:50:48,245 172.21.0.1 - - [12/Jun/2024 23:50:48] "GET /test?&__debugger__=yes&cmd=for%20i%20in%20network:&frm=138358882456416&s=Arce80L0UtveUigro5Yt HTTP/1.1" 200 -
+2024-06-12 23:51:03,399 172.21.0.1 - - [12/Jun/2024 23:51:03] "GET /test?&__debugger__=yes&cmd=%20%20%20%20print(i)&frm=138358882456416&s=Arce80L0UtveUigro5Yt HTTP/1.1" 200 -
+2024-06-12 23:51:46,537  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:51:46,625  * Restarting with stat
+2024-06-12 23:51:47,020  * Debugger is active!
+2024-06-12 23:51:47,021  * Debugger PIN: 123-752-431
+2024-06-12 23:51:49,822 Connecting to vsphere
+2024-06-12 23:51:49,831 172.21.0.1 - - [12/Jun/2024 23:51:49] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-12 23:51:49,857 172.21.0.1 - - [12/Jun/2024 23:51:49] "[36mGET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:51:49,857 172.21.0.1 - - [12/Jun/2024 23:51:49] "[36mGET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:51:49,870 172.21.0.1 - - [12/Jun/2024 23:51:49] "[36mGET /test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:52:18,230 172.21.0.1 - - [12/Jun/2024 23:52:18] "GET /test?&__debugger__=yes&cmd=or%20network%20in%20container_view.view:&frm=129960841675968&s=Bmf20y58nU4AQgTV1ERO HTTP/1.1" 200 -
+2024-06-12 23:52:27,580 172.21.0.1 - - [12/Jun/2024 23:52:27] "GET /test?&__debugger__=yes&cmd=for%20network%20in%20container_view.view:&frm=129960841675968&s=Bmf20y58nU4AQgTV1ERO HTTP/1.1" 200 -
+2024-06-12 23:52:38,630 172.21.0.1 - - [12/Jun/2024 23:52:38] "GET /test?&__debugger__=yes&cmd=%20%20%20%20print(network)&frm=129960841675968&s=Bmf20y58nU4AQgTV1ERO HTTP/1.1" 200 -
+2024-06-12 23:53:04,171 172.21.0.1 - - [12/Jun/2024 23:53:04] "GET /test?&__debugger__=yes&cmd=%20%20%20%20print(network.name)&frm=129960841675968&s=Bmf20y58nU4AQgTV1ERO HTTP/1.1" 200 -
+2024-06-12 23:53:09,545 172.21.0.1 - - [12/Jun/2024 23:53:09] "GET /test?&__debugger__=yes&cmd=for%20network%20in%20container_view.view:&frm=129960841675968&s=Bmf20y58nU4AQgTV1ERO HTTP/1.1" 200 -
+2024-06-12 23:53:12,829 172.21.0.1 - - [12/Jun/2024 23:53:12] "GET /test?&__debugger__=yes&cmd=%20%20%20%20print(network.name)&frm=129960841675968&s=Bmf20y58nU4AQgTV1ERO HTTP/1.1" 200 -
+2024-06-12 23:55:16,616  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:55:16,703  * Restarting with stat
+2024-06-12 23:55:17,099  * Debugger is active!
+2024-06-12 23:55:17,100  * Debugger PIN: 123-752-431
+2024-06-12 23:55:20,054 Connecting to vsphere
+2024-06-12 23:55:20,067 172.21.0.1 - - [12/Jun/2024 23:55:20] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-12 23:55:20,091 172.21.0.1 - - [12/Jun/2024 23:55:20] "[36mGET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:55:20,093 172.21.0.1 - - [12/Jun/2024 23:55:20] "[36mGET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:55:20,105 172.21.0.1 - - [12/Jun/2024 23:55:20] "[36mGET /test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:55:35,111 172.21.0.1 - - [12/Jun/2024 23:55:35] "GET /test?&__debugger__=yes&cmd=dsv_name&frm=135460970546656&s=4Um92qLxvjKAcbf8OKWJ HTTP/1.1" 200 -
+2024-06-12 23:55:46,314 172.21.0.1 - - [12/Jun/2024 23:55:46] "GET /test?&__debugger__=yes&cmd=dvs_name&frm=135460970546656&s=4Um92qLxvjKAcbf8OKWJ HTTP/1.1" 200 -
+2024-06-12 23:56:11,475 172.21.0.1 - - [12/Jun/2024 23:56:11] "GET /test?&__debugger__=yes&cmd=dvs_name%20in%20network.name&frm=135460970546656&s=4Um92qLxvjKAcbf8OKWJ HTTP/1.1" 200 -
+2024-06-12 23:56:19,917 172.21.0.1 - - [12/Jun/2024 23:56:19] "GET /test?&__debugger__=yes&cmd=dvs_name%20in%20network&frm=135460970546656&s=4Um92qLxvjKAcbf8OKWJ HTTP/1.1" 200 -
+2024-06-12 23:56:43,204 172.21.0.1 - - [12/Jun/2024 23:56:43] "GET /test?&__debugger__=yes&cmd=network_name&frm=135460970546656&s=4Um92qLxvjKAcbf8OKWJ HTTP/1.1" 200 -
+2024-06-12 23:56:50,503 172.21.0.1 - - [12/Jun/2024 23:56:50] "GET /test?&__debugger__=yes&cmd=network.name&frm=135460970546656&s=4Um92qLxvjKAcbf8OKWJ HTTP/1.1" 200 -
+2024-06-12 23:57:04,996 Connecting to vsphere
+2024-06-12 23:57:05,006 172.21.0.1 - - [12/Jun/2024 23:57:05] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-12 23:57:05,029 172.21.0.1 - - [12/Jun/2024 23:57:05] "[36mGET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:57:05,030 172.21.0.1 - - [12/Jun/2024 23:57:05] "[36mGET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:57:05,040 172.21.0.1 - - [12/Jun/2024 23:57:05] "[36mGET /test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:57:36,501  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:57:36,581  * Restarting with stat
+2024-06-12 23:57:36,962  * Debugger is active!
+2024-06-12 23:57:36,963  * Debugger PIN: 123-752-431
+2024-06-12 23:57:45,131 Connecting to vsphere
+2024-06-12 23:57:45,157 172.21.0.1 - - [12/Jun/2024 23:57:45] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-12 23:57:45,178 172.21.0.1 - - [12/Jun/2024 23:57:45] "[36mGET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:57:45,179 172.21.0.1 - - [12/Jun/2024 23:57:45] "[36mGET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:57:45,191 172.21.0.1 - - [12/Jun/2024 23:57:45] "[36mGET /test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:58:14,073  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-12 23:58:14,159  * Restarting with stat
+2024-06-12 23:58:14,547  * Debugger is active!
+2024-06-12 23:58:14,548  * Debugger PIN: 123-752-431
+2024-06-12 23:58:33,369 Connecting to vsphere
+2024-06-12 23:58:33,401 172.21.0.1 - - [12/Jun/2024 23:58:33] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-12 23:58:33,418 172.21.0.1 - - [12/Jun/2024 23:58:33] "[36mGET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-12 23:58:33,420 172.21.0.1 - - [12/Jun/2024 23:58:33] "[36mGET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-12 23:58:33,433 172.21.0.1 - - [12/Jun/2024 23:58:33] "[36mGET /test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-12 23:58:58,725 172.21.0.1 - - [12/Jun/2024 23:58:58] "GET /test?&__debugger__=yes&cmd=%20port_list%20%3D%20dvs.FetchDVPorts()&frm=127930112083712&s=CnZ4tK6hz90qA23IamKw HTTP/1.1" 200 -
+2024-06-13 00:05:24,989 172.21.0.1 - - [13/Jun/2024 00:05:24] "GET /test?&__debugger__=yes&cmd=port_list%20%3D%20dvs.FetchDVPorts()&frm=127930112083712&s=CnZ4tK6hz90qA23IamKw HTTP/1.1" 200 -
+2024-06-13 00:05:44,516 172.21.0.1 - - [13/Jun/2024 00:05:44] "GET /test?&__debugger__=yes&cmd=dvs&frm=127930112083712&s=CnZ4tK6hz90qA23IamKw HTTP/1.1" 200 -
+2024-06-13 00:10:17,739 172.21.0.1 - - [13/Jun/2024 00:10:17] "GET /test?&__debugger__=yes&cmd=portgroups%20%3D%20dvs.portgroup&frm=127930112083712&s=CnZ4tK6hz90qA23IamKw HTTP/1.1" 200 -
+2024-06-13 00:13:27,186  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-13 00:13:27,272  * Restarting with stat
+2024-06-13 00:13:27,672  * Debugger is active!
+2024-06-13 00:13:27,673  * Debugger PIN: 123-752-431
+2024-06-13 00:13:31,449 Connecting to vsphere
+2024-06-13 00:13:31,463 172.21.0.1 - - [13/Jun/2024 00:13:31] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-13 00:13:31,490 172.21.0.1 - - [13/Jun/2024 00:13:31] "[36mGET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-13 00:13:31,492 172.21.0.1 - - [13/Jun/2024 00:13:31] "[36mGET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-13 00:13:31,507 172.21.0.1 - - [13/Jun/2024 00:13:31] "[36mGET /test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-13 00:14:21,832  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-13 00:14:21,924  * Restarting with stat
+2024-06-13 00:14:22,307  * Debugger is active!
+2024-06-13 00:14:22,308  * Debugger PIN: 123-752-431
+2024-06-13 00:14:33,287 Connecting to vsphere
+2024-06-13 00:14:33,300 172.21.0.1 - - [13/Jun/2024 00:14:33] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-13 00:14:33,328 172.21.0.1 - - [13/Jun/2024 00:14:33] "[36mGET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-13 00:14:33,328 172.21.0.1 - - [13/Jun/2024 00:14:33] "[36mGET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-13 00:14:33,341 172.21.0.1 - - [13/Jun/2024 00:14:33] "[36mGET /test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-13 00:14:42,789 172.21.0.1 - - [13/Jun/2024 00:14:42] "GET /test?&__debugger__=yes&cmd=obj&frm=124394661053920&s=KBg879N620lcFJfBUwuM HTTP/1.1" 200 -
+2024-06-13 00:15:12,317 172.21.0.1 - - [13/Jun/2024 00:15:12] "GET /test?&__debugger__=yes&cmd=obj.anme&frm=124394661053920&s=KBg879N620lcFJfBUwuM HTTP/1.1" 200 -
+2024-06-13 00:15:21,948 172.21.0.1 - - [13/Jun/2024 00:15:21] "GET /test?&__debugger__=yes&cmd=obj.name&frm=124394661053920&s=KBg879N620lcFJfBUwuM HTTP/1.1" 200 -
+2024-06-13 00:15:41,166 172.21.0.1 - - [13/Jun/2024 00:15:41] "GET /test?&__debugger__=yes&cmd=dvs_name%20in%20obj.name&frm=124394661053920&s=KBg879N620lcFJfBUwuM HTTP/1.1" 200 -
+2024-06-13 00:16:04,747 172.21.0.1 - - [13/Jun/2024 00:16:04] "GET /test?&__debugger__=yes&cmd=dvs_name&frm=124394661053920&s=KBg879N620lcFJfBUwuM HTTP/1.1" 200 -
+2024-06-13 00:16:32,691  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-13 00:16:32,771  * Restarting with stat
+2024-06-13 00:16:33,167  * Debugger is active!
+2024-06-13 00:16:33,168  * Debugger PIN: 123-752-431
+2024-06-13 00:16:34,403 Connecting to vsphere
+2024-06-13 00:16:34,418 172.21.0.1 - - [13/Jun/2024 00:16:34] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-13 00:16:34,443 172.21.0.1 - - [13/Jun/2024 00:16:34] "[36mGET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-13 00:16:34,444 172.21.0.1 - - [13/Jun/2024 00:16:34] "[36mGET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-13 00:16:34,455 172.21.0.1 - - [13/Jun/2024 00:16:34] "[36mGET /test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-13 00:17:12,286  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-13 00:17:12,373  * Restarting with stat
+2024-06-13 00:17:12,760  * Debugger is active!
+2024-06-13 00:17:12,760  * Debugger PIN: 123-752-431
+2024-06-13 00:17:14,845 Connecting to vsphere
+2024-06-13 00:17:14,859 172.21.0.1 - - [13/Jun/2024 00:17:14] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-13 00:17:14,879 172.21.0.1 - - [13/Jun/2024 00:17:14] "[36mGET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-13 00:17:14,881 172.21.0.1 - - [13/Jun/2024 00:17:14] "[36mGET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-13 00:17:14,893 172.21.0.1 - - [13/Jun/2024 00:17:14] "[36mGET /test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-13 14:22:47,657  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-13 14:22:47,748  * Restarting with stat
+2024-06-13 14:22:48,157  * Debugger is active!
+2024-06-13 14:22:48,158  * Debugger PIN: 123-752-431
+2024-06-13 14:24:34,462  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-13 14:24:34,550  * Restarting with stat
+2024-06-13 14:24:34,938  * Debugger is active!
+2024-06-13 14:24:34,939  * Debugger PIN: 123-752-431
+2024-06-13 14:25:33,103  * Detected change in '/opt/app.py', reloading
+2024-06-13 14:25:33,181  * Restarting with stat
+2024-06-13 14:25:33,566  * Debugger is active!
+2024-06-13 14:25:33,567  * Debugger PIN: 123-752-431
+2024-06-13 14:29:31,765 Connecting to vsphere
+2024-06-13 14:29:31,803 172.21.0.1 - - [13/Jun/2024 14:29:31] "GET /test HTTP/1.1" 200 -
+2024-06-13 14:29:31,847 172.21.0.1 - - [13/Jun/2024 14:29:31] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-06-13 14:29:31,850 172.21.0.1 - - [13/Jun/2024 14:29:31] "GET /static/js/jquery.countTo.min.js HTTP/1.1" 200 -
+2024-06-13 14:29:31,852 172.21.0.1 - - [13/Jun/2024 14:29:31] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:29:31,855 172.21.0.1 - - [13/Jun/2024 14:29:31] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-06-13 14:29:31,858 172.21.0.1 - - [13/Jun/2024 14:29:31] "GET /static/css/responsive.css HTTP/1.1" 200 -
+2024-06-13 14:29:31,858 172.21.0.1 - - [13/Jun/2024 14:29:31] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:29:31,859 172.21.0.1 - - [13/Jun/2024 14:29:31] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:29:31,860 172.21.0.1 - - [13/Jun/2024 14:29:31] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:29:31,863 172.21.0.1 - - [13/Jun/2024 14:29:31] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 14:29:31,989 172.21.0.1 - - [13/Jun/2024 14:29:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-13 14:29:32,012 172.21.0.1 - - [13/Jun/2024 14:29:32] "GET /static/img/apple-touch-icon.png HTTP/1.1" 200 -
+2024-06-13 14:29:40,196 Connecting to vsphere
+2024-06-13 14:29:40,224 172.21.0.1 - - [13/Jun/2024 14:29:40] "GET /test HTTP/1.1" 200 -
+2024-06-13 14:29:40,280 172.21.0.1 - - [13/Jun/2024 14:29:40] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:29:40,281 172.21.0.1 - - [13/Jun/2024 14:29:40] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:29:40,287 172.21.0.1 - - [13/Jun/2024 14:29:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 14:29:40,289 172.21.0.1 - - [13/Jun/2024 14:29:40] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:29:40,290 172.21.0.1 - - [13/Jun/2024 14:29:40] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:29:40,292 172.21.0.1 - - [13/Jun/2024 14:29:40] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-06-13 14:29:40,293 172.21.0.1 - - [13/Jun/2024 14:29:40] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:29:40,295 172.21.0.1 - - [13/Jun/2024 14:29:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-06-13 14:29:40,297 172.21.0.1 - - [13/Jun/2024 14:29:40] "GET /static/css/responsive.css HTTP/1.1" 200 -
+2024-06-13 14:35:10,358 Connecting to vsphere
+2024-06-13 14:35:10,401 172.21.0.1 - - [13/Jun/2024 14:35:10] "GET /test HTTP/1.1" 200 -
+2024-06-13 14:35:10,462 172.21.0.1 - - [13/Jun/2024 14:35:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 14:35:10,464 172.21.0.1 - - [13/Jun/2024 14:35:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 14:35:10,465 172.21.0.1 - - [13/Jun/2024 14:35:10] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 14:35:10,466 172.21.0.1 - - [13/Jun/2024 14:35:10] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:35:10,469 172.21.0.1 - - [13/Jun/2024 14:35:10] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:35:10,470 172.21.0.1 - - [13/Jun/2024 14:35:10] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:35:10,471 172.21.0.1 - - [13/Jun/2024 14:35:10] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:35:10,473 172.21.0.1 - - [13/Jun/2024 14:35:10] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 14:35:10,473 172.21.0.1 - - [13/Jun/2024 14:35:10] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:36:25,746 Connecting to vsphere
+2024-06-13 14:36:25,793 172.21.0.1 - - [13/Jun/2024 14:36:25] "GET /test HTTP/1.1" 200 -
+2024-06-13 14:36:25,849 172.21.0.1 - - [13/Jun/2024 14:36:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 14:36:25,861 172.21.0.1 - - [13/Jun/2024 14:36:25] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 14:36:25,862 172.21.0.1 - - [13/Jun/2024 14:36:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 14:36:25,866 172.21.0.1 - - [13/Jun/2024 14:36:25] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:36:25,867 172.21.0.1 - - [13/Jun/2024 14:36:25] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:36:25,870 172.21.0.1 - - [13/Jun/2024 14:36:25] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 14:36:25,871 172.21.0.1 - - [13/Jun/2024 14:36:25] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:36:25,873 172.21.0.1 - - [13/Jun/2024 14:36:25] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:36:25,874 172.21.0.1 - - [13/Jun/2024 14:36:25] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 14:56:38,841  * Detected change in '/opt/utility/vm_watcher.py', reloading
+2024-06-13 14:56:38,925  * Restarting with stat
+2024-06-13 14:56:39,298  * Debugger is active!
+2024-06-13 14:56:39,299  * Debugger PIN: 123-752-431
+2024-06-13 14:59:17,743  * Detected change in '/opt/utility/port_info.py', reloading
+2024-06-13 14:59:17,815  * Restarting with stat
+2024-06-13 14:59:18,184  * Debugger is active!
+2024-06-13 14:59:18,185  * Debugger PIN: 123-752-431
+2024-06-13 15:16:43,121  * Detected change in '/opt/app.py', reloading
+2024-06-13 15:16:43,199  * Restarting with stat
+2024-06-13 15:16:43,572  * Debugger is active!
+2024-06-13 15:16:43,573  * Debugger PIN: 123-752-431
+2024-06-13 15:17:04,127 Connecting to vsphere
+2024-06-13 15:17:04,196 172.21.0.1 - - [13/Jun/2024 15:17:04] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2024-06-13 15:17:04,238 172.21.0.1 - - [13/Jun/2024 15:17:04] "[36mGET /test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:17:04,239 172.21.0.1 - - [13/Jun/2024 15:17:04] "[36mGET /test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-13 15:17:04,251 172.21.0.1 - - [13/Jun/2024 15:17:04] "[36mGET /test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-13 15:18:31,889  * Detected change in '/opt/utility/vm_watcher.py', reloading
+2024-06-13 15:18:31,973  * Restarting with stat
+2024-06-13 15:18:32,369  * Debugger is active!
+2024-06-13 15:18:32,370  * Debugger PIN: 123-752-431
+2024-06-13 15:18:40,369 Connecting to vsphere
+2024-06-13 15:18:40,567 172.21.0.1 - - [13/Jun/2024 15:18:40] "GET /test HTTP/1.1" 200 -
+2024-06-13 15:18:40,623 172.21.0.1 - - [13/Jun/2024 15:18:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 15:18:40,626 172.21.0.1 - - [13/Jun/2024 15:18:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:18:40,631 172.21.0.1 - - [13/Jun/2024 15:18:40] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:18:40,633 172.21.0.1 - - [13/Jun/2024 15:18:40] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 15:18:40,633 172.21.0.1 - - [13/Jun/2024 15:18:40] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:18:40,636 172.21.0.1 - - [13/Jun/2024 15:18:40] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:18:40,637 172.21.0.1 - - [13/Jun/2024 15:18:40] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:18:40,639 172.21.0.1 - - [13/Jun/2024 15:18:40] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:18:40,640 172.21.0.1 - - [13/Jun/2024 15:18:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 15:26:16,705  * Detected change in '/opt/app.py', reloading
+2024-06-13 15:26:16,796  * Restarting with stat
+2024-06-13 15:26:17,173  * Debugger is active!
+2024-06-13 15:26:17,174  * Debugger PIN: 123-752-431
+2024-06-13 15:40:13,997 172.21.0.1 - - [13/Jun/2024 15:40:13] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-13 15:40:14,102 172.21.0.1 - - [13/Jun/2024 15:40:14] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:14,103 172.21.0.1 - - [13/Jun/2024 15:40:14] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:14,104 172.21.0.1 - - [13/Jun/2024 15:40:14] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:14,107 172.21.0.1 - - [13/Jun/2024 15:40:14] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:14,108 172.21.0.1 - - [13/Jun/2024 15:40:14] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:14,112 172.21.0.1 - - [13/Jun/2024 15:40:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:40:14,114 172.21.0.1 - - [13/Jun/2024 15:40:14] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 15:40:14,114 172.21.0.1 - - [13/Jun/2024 15:40:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 15:40:14,117 172.21.0.1 - - [13/Jun/2024 15:40:14] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:19,596 172.21.0.1 - - [13/Jun/2024 15:40:19] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 15:40:19,649 172.21.0.1 - - [13/Jun/2024 15:40:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 15:40:19,651 172.21.0.1 - - [13/Jun/2024 15:40:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:40:19,655 172.21.0.1 - - [13/Jun/2024 15:40:19] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:19,659 172.21.0.1 - - [13/Jun/2024 15:40:19] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 15:40:19,660 172.21.0.1 - - [13/Jun/2024 15:40:19] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:19,661 172.21.0.1 - - [13/Jun/2024 15:40:19] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:19,664 172.21.0.1 - - [13/Jun/2024 15:40:19] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:19,665 172.21.0.1 - - [13/Jun/2024 15:40:19] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:19,669 172.21.0.1 - - [13/Jun/2024 15:40:19] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:58,884 172.21.0.1 - - [13/Jun/2024 15:40:58] "POST /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-13 15:40:58,933 172.21.0.1 - - [13/Jun/2024 15:40:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 15:40:58,936 172.21.0.1 - - [13/Jun/2024 15:40:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:40:58,939 172.21.0.1 - - [13/Jun/2024 15:40:58] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:58,940 172.21.0.1 - - [13/Jun/2024 15:40:58] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 15:40:58,943 172.21.0.1 - - [13/Jun/2024 15:40:58] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:58,944 172.21.0.1 - - [13/Jun/2024 15:40:58] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:58,945 172.21.0.1 - - [13/Jun/2024 15:40:58] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:58,948 172.21.0.1 - - [13/Jun/2024 15:40:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 15:40:58,948 172.21.0.1 - - [13/Jun/2024 15:40:58] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:41:06,081 172.21.0.1 - - [13/Jun/2024 15:41:06] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 15:41:06,127 172.21.0.1 - - [13/Jun/2024 15:41:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 15:41:06,128 172.21.0.1 - - [13/Jun/2024 15:41:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:41:06,131 172.21.0.1 - - [13/Jun/2024 15:41:06] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:41:06,134 172.21.0.1 - - [13/Jun/2024 15:41:06] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 15:41:06,135 172.21.0.1 - - [13/Jun/2024 15:41:06] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:41:06,135 172.21.0.1 - - [13/Jun/2024 15:41:06] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:41:06,138 172.21.0.1 - - [13/Jun/2024 15:41:06] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:41:06,139 172.21.0.1 - - [13/Jun/2024 15:41:06] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:41:06,141 172.21.0.1 - - [13/Jun/2024 15:41:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 15:42:47,592 172.21.0.1 - - [13/Jun/2024 15:42:47] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-13 15:42:47,637 172.21.0.1 - - [13/Jun/2024 15:42:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 15:42:47,638 172.21.0.1 - - [13/Jun/2024 15:42:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:42:47,643 172.21.0.1 - - [13/Jun/2024 15:42:47] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:42:47,646 172.21.0.1 - - [13/Jun/2024 15:42:47] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:42:47,649 172.21.0.1 - - [13/Jun/2024 15:42:47] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:42:47,650 172.21.0.1 - - [13/Jun/2024 15:42:47] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:42:47,652 172.21.0.1 - - [13/Jun/2024 15:42:47] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 15:42:47,654 172.21.0.1 - - [13/Jun/2024 15:42:47] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:42:47,656 172.21.0.1 - - [13/Jun/2024 15:42:47] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 15:42:55,558 172.21.0.1 - - [13/Jun/2024 15:42:55] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 15:42:55,614 172.21.0.1 - - [13/Jun/2024 15:42:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 15:42:55,617 172.21.0.1 - - [13/Jun/2024 15:42:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:42:55,625 172.21.0.1 - - [13/Jun/2024 15:42:55] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 15:42:55,627 172.21.0.1 - - [13/Jun/2024 15:42:55] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:42:55,631 172.21.0.1 - - [13/Jun/2024 15:42:55] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:42:55,632 172.21.0.1 - - [13/Jun/2024 15:42:55] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:42:55,635 172.21.0.1 - - [13/Jun/2024 15:42:55] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:42:55,637 172.21.0.1 - - [13/Jun/2024 15:42:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 15:42:55,637 172.21.0.1 - - [13/Jun/2024 15:42:55] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:43:45,796 172.21.0.1 - - [13/Jun/2024 15:43:45] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-13 15:43:45,842 172.21.0.1 - - [13/Jun/2024 15:43:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 15:43:45,848 172.21.0.1 - - [13/Jun/2024 15:43:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:43:45,849 172.21.0.1 - - [13/Jun/2024 15:43:45] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 15:43:45,851 172.21.0.1 - - [13/Jun/2024 15:43:45] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:43:45,853 172.21.0.1 - - [13/Jun/2024 15:43:45] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:43:45,855 172.21.0.1 - - [13/Jun/2024 15:43:45] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:43:45,856 172.21.0.1 - - [13/Jun/2024 15:43:45] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:43:45,857 172.21.0.1 - - [13/Jun/2024 15:43:45] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:43:45,859 172.21.0.1 - - [13/Jun/2024 15:43:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 15:43:50,684 172.21.0.1 - - [13/Jun/2024 15:43:50] "GET /list_dvs HTTP/1.1" 200 -
+2024-06-13 15:43:50,729 172.21.0.1 - - [13/Jun/2024 15:43:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 15:43:50,736 172.21.0.1 - - [13/Jun/2024 15:43:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:43:50,737 172.21.0.1 - - [13/Jun/2024 15:43:50] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 15:43:50,739 172.21.0.1 - - [13/Jun/2024 15:43:50] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:43:50,741 172.21.0.1 - - [13/Jun/2024 15:43:50] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:43:50,743 172.21.0.1 - - [13/Jun/2024 15:43:50] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:43:50,744 172.21.0.1 - - [13/Jun/2024 15:43:50] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:43:50,746 172.21.0.1 - - [13/Jun/2024 15:43:50] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:43:50,747 172.21.0.1 - - [13/Jun/2024 15:43:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 15:50:25,326 172.21.0.1 - - [13/Jun/2024 15:50:25] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-13 15:50:25,387 172.21.0.1 - - [13/Jun/2024 15:50:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 15:50:25,390 172.21.0.1 - - [13/Jun/2024 15:50:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:50:25,391 172.21.0.1 - - [13/Jun/2024 15:50:25] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 15:50:25,398 172.21.0.1 - - [13/Jun/2024 15:50:25] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 15:50:25,399 172.21.0.1 - - [13/Jun/2024 15:50:25] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:50:25,400 172.21.0.1 - - [13/Jun/2024 15:50:25] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:50:25,401 172.21.0.1 - - [13/Jun/2024 15:50:25] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:50:25,401 172.21.0.1 - - [13/Jun/2024 15:50:25] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:50:25,402 172.21.0.1 - - [13/Jun/2024 15:50:25] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:51:02,747 172.21.0.1 - - [13/Jun/2024 15:51:02] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-13 15:51:02,805 172.21.0.1 - - [13/Jun/2024 15:51:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 15:51:02,805 172.21.0.1 - - [13/Jun/2024 15:51:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:51:02,809 172.21.0.1 - - [13/Jun/2024 15:51:02] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:51:02,812 172.21.0.1 - - [13/Jun/2024 15:51:02] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:51:02,812 172.21.0.1 - - [13/Jun/2024 15:51:02] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 15:51:02,817 172.21.0.1 - - [13/Jun/2024 15:51:02] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:51:02,818 172.21.0.1 - - [13/Jun/2024 15:51:02] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:51:02,818 172.21.0.1 - - [13/Jun/2024 15:51:02] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:51:02,818 172.21.0.1 - - [13/Jun/2024 15:51:02] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 15:52:37,109 172.21.0.1 - - [13/Jun/2024 15:52:37] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-13 15:52:37,153 172.21.0.1 - - [13/Jun/2024 15:52:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 15:52:37,155 172.21.0.1 - - [13/Jun/2024 15:52:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:52:37,157 172.21.0.1 - - [13/Jun/2024 15:52:37] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 15:52:37,158 172.21.0.1 - - [13/Jun/2024 15:52:37] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:52:37,159 172.21.0.1 - - [13/Jun/2024 15:52:37] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:52:37,160 172.21.0.1 - - [13/Jun/2024 15:52:37] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:52:37,162 172.21.0.1 - - [13/Jun/2024 15:52:37] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:52:37,163 172.21.0.1 - - [13/Jun/2024 15:52:37] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:52:37,164 172.21.0.1 - - [13/Jun/2024 15:52:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 15:52:49,268 172.21.0.1 - - [13/Jun/2024 15:52:49] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 15:52:49,320 172.21.0.1 - - [13/Jun/2024 15:52:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 15:52:49,324 172.21.0.1 - - [13/Jun/2024 15:52:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:52:49,326 172.21.0.1 - - [13/Jun/2024 15:52:49] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 15:52:49,332 172.21.0.1 - - [13/Jun/2024 15:52:49] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:52:49,333 172.21.0.1 - - [13/Jun/2024 15:52:49] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:52:49,335 172.21.0.1 - - [13/Jun/2024 15:52:49] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:52:49,337 172.21.0.1 - - [13/Jun/2024 15:52:49] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:52:49,340 172.21.0.1 - - [13/Jun/2024 15:52:49] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:52:49,341 172.21.0.1 - - [13/Jun/2024 15:52:49] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 15:54:41,075  * Detected change in '/opt/utility/vm_watcher.py', reloading
+2024-06-13 15:54:41,171  * Restarting with stat
+2024-06-13 15:54:41,565  * Debugger is active!
+2024-06-13 15:54:41,566  * Debugger PIN: 123-752-431
+2024-06-13 15:54:46,713 172.21.0.1 - - [13/Jun/2024 15:54:46] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 15:54:46,762 172.21.0.1 - - [13/Jun/2024 15:54:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 15:54:46,765 172.21.0.1 - - [13/Jun/2024 15:54:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 15:54:46,770 172.21.0.1 - - [13/Jun/2024 15:54:46] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 15:54:46,774 172.21.0.1 - - [13/Jun/2024 15:54:46] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:54:46,777 172.21.0.1 - - [13/Jun/2024 15:54:46] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:54:46,777 172.21.0.1 - - [13/Jun/2024 15:54:46] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:54:46,787 172.21.0.1 - - [13/Jun/2024 15:54:46] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 15:54:46,788 172.21.0.1 - - [13/Jun/2024 15:54:46] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:54:46,790 172.21.0.1 - - [13/Jun/2024 15:54:46] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 15:58:13,180  * Detected change in '/opt/utility/nic2dvs.py', reloading
+2024-06-13 15:58:13,284  * Restarting with stat
+2024-06-13 15:58:13,667  * Debugger is active!
+2024-06-13 15:58:13,668  * Debugger PIN: 123-752-431
+2024-06-13 16:07:35,270  * Detected change in '/opt/app.py', reloading
+2024-06-13 16:07:35,349  * Restarting with stat
+2024-06-13 16:07:35,751  * Debugger is active!
+2024-06-13 16:07:35,752  * Debugger PIN: 123-752-431
+2024-06-13 16:07:38,068 172.21.0.1 - - [13/Jun/2024 16:07:38] "GET /home?message=Returned+to+home+screen...EOL HTTP/1.1" 200 -
+2024-06-13 16:07:38,131 172.21.0.1 - - [13/Jun/2024 16:07:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:07:38,133 172.21.0.1 - - [13/Jun/2024 16:07:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:07:38,137 172.21.0.1 - - [13/Jun/2024 16:07:38] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:07:38,163 172.21.0.1 - - [13/Jun/2024 16:07:38] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:07:38,164 172.21.0.1 - - [13/Jun/2024 16:07:38] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:07:38,165 172.21.0.1 - - [13/Jun/2024 16:07:38] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:07:38,167 172.21.0.1 - - [13/Jun/2024 16:07:38] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:07:38,168 172.21.0.1 - - [13/Jun/2024 16:07:38] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:07:38,171 172.21.0.1 - - [13/Jun/2024 16:07:38] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:07:41,576 172.21.0.1 - - [13/Jun/2024 16:07:41] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 16:07:41,626 172.21.0.1 - - [13/Jun/2024 16:07:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:07:41,629 172.21.0.1 - - [13/Jun/2024 16:07:41] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:07:41,631 172.21.0.1 - - [13/Jun/2024 16:07:41] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:07:41,631 172.21.0.1 - - [13/Jun/2024 16:07:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:07:41,633 172.21.0.1 - - [13/Jun/2024 16:07:41] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:07:41,636 172.21.0.1 - - [13/Jun/2024 16:07:41] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:07:41,641 172.21.0.1 - - [13/Jun/2024 16:07:41] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:07:41,642 172.21.0.1 - - [13/Jun/2024 16:07:41] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:07:41,644 172.21.0.1 - - [13/Jun/2024 16:07:41] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:08:43,956  * Detected change in '/opt/app.py', reloading
+2024-06-13 16:08:44,046  * Restarting with stat
+2024-06-13 16:08:44,449  * Debugger is active!
+2024-06-13 16:08:44,450  * Debugger PIN: 123-752-431
+2024-06-13 16:08:51,360 172.21.0.1 - - [13/Jun/2024 16:08:51] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 16:08:51,413 172.21.0.1 - - [13/Jun/2024 16:08:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:08:51,420 172.21.0.1 - - [13/Jun/2024 16:08:51] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:08:51,421 172.21.0.1 - - [13/Jun/2024 16:08:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:08:51,421 172.21.0.1 - - [13/Jun/2024 16:08:51] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:08:51,430 172.21.0.1 - - [13/Jun/2024 16:08:51] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:08:51,432 172.21.0.1 - - [13/Jun/2024 16:08:51] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:08:51,434 172.21.0.1 - - [13/Jun/2024 16:08:51] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:08:51,436 172.21.0.1 - - [13/Jun/2024 16:08:51] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:08:51,438 172.21.0.1 - - [13/Jun/2024 16:08:51] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:11:45,972  * Detected change in '/opt/app.py', reloading
+2024-06-13 16:11:46,073  * Restarting with stat
+2024-06-13 16:11:46,460  * Debugger is active!
+2024-06-13 16:11:46,461  * Debugger PIN: 123-752-431
+2024-06-13 16:11:51,090 172.21.0.1 - - [13/Jun/2024 16:11:51] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 16:11:51,138 172.21.0.1 - - [13/Jun/2024 16:11:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:11:51,142 172.21.0.1 - - [13/Jun/2024 16:11:51] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:11:51,144 172.21.0.1 - - [13/Jun/2024 16:11:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:11:51,145 172.21.0.1 - - [13/Jun/2024 16:11:51] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:11:51,148 172.21.0.1 - - [13/Jun/2024 16:11:51] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:11:51,150 172.21.0.1 - - [13/Jun/2024 16:11:51] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:11:51,154 172.21.0.1 - - [13/Jun/2024 16:11:51] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:11:51,157 172.21.0.1 - - [13/Jun/2024 16:11:51] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:11:51,158 172.21.0.1 - - [13/Jun/2024 16:11:51] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:40:52,473  * Detected change in '/opt/app.py', reloading
+2024-06-13 16:40:52,563  * Restarting with stat
+2024-06-13 16:40:52,962  * Debugger is active!
+2024-06-13 16:40:52,963  * Debugger PIN: 123-752-431
+2024-06-13 16:42:14,195  * Detected change in '/opt/app.py', reloading
+2024-06-13 16:42:14,270  * Restarting with stat
+2024-06-13 16:42:14,656  * Debugger is active!
+2024-06-13 16:42:14,657  * Debugger PIN: 123-752-431
+2024-06-13 16:42:22,573 172.21.0.1 - - [13/Jun/2024 16:42:22] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 16:42:22,620 172.21.0.1 - - [13/Jun/2024 16:42:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:42:22,625 172.21.0.1 - - [13/Jun/2024 16:42:22] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:22,627 172.21.0.1 - - [13/Jun/2024 16:42:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:42:22,628 172.21.0.1 - - [13/Jun/2024 16:42:22] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:22,629 172.21.0.1 - - [13/Jun/2024 16:42:22] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:22,631 172.21.0.1 - - [13/Jun/2024 16:42:22] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:22,631 172.21.0.1 - - [13/Jun/2024 16:42:22] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:42:22,635 172.21.0.1 - - [13/Jun/2024 16:42:22] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:22,637 172.21.0.1 - - [13/Jun/2024 16:42:22] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:26,731 172.21.0.1 - - [13/Jun/2024 16:42:26] "GET /connect_workload HTTP/1.1" 200 -
+2024-06-13 16:42:26,800 172.21.0.1 - - [13/Jun/2024 16:42:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:42:26,803 172.21.0.1 - - [13/Jun/2024 16:42:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:42:26,803 172.21.0.1 - - [13/Jun/2024 16:42:26] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:26,804 172.21.0.1 - - [13/Jun/2024 16:42:26] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:42:26,807 172.21.0.1 - - [13/Jun/2024 16:42:26] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:26,810 172.21.0.1 - - [13/Jun/2024 16:42:26] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:26,812 172.21.0.1 - - [13/Jun/2024 16:42:26] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:26,814 172.21.0.1 - - [13/Jun/2024 16:42:26] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:26,816 172.21.0.1 - - [13/Jun/2024 16:42:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:31,621 172.21.0.1 - - [13/Jun/2024 16:42:31] "GET /show_connect HTTP/1.1" 200 -
+2024-06-13 16:42:31,677 172.21.0.1 - - [13/Jun/2024 16:42:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-13 16:42:31,688 172.21.0.1 - - [13/Jun/2024 16:42:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-06-13 16:42:31,688 172.21.0.1 - - [13/Jun/2024 16:42:31] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:31,690 172.21.0.1 - - [13/Jun/2024 16:42:31] "[36mGET /static/js/bootstrap-select.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:31,692 172.21.0.1 - - [13/Jun/2024 16:42:31] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:31,694 172.21.0.1 - - [13/Jun/2024 16:42:31] "[36mGET /static/js/jquery.slicknav.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:31,696 172.21.0.1 - - [13/Jun/2024 16:42:31] "[36mGET /static/css/responsive.css HTTP/1.1[0m" 304 -
+2024-06-13 16:42:31,696 172.21.0.1 - - [13/Jun/2024 16:42:31] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
+2024-06-13 16:42:31,698 172.21.0.1 - - [13/Jun/2024 16:42:31] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -

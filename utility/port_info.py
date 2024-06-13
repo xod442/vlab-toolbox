@@ -1,12 +1,3 @@
-dvs_name = 'LG01-dvs-1'
-dvs_pg = 'LG01-DP-01'
-vm_name ='LG01-WL01-V10-101'
-vmnic_mac = '00:50:56:b6:5c:a6'
-portKey = '1'
-vsp_ip = '10.250.0.50'
-vsp_user = 'administrator@vsphere.local'
-vsp_pass = "password"
-
 
 '''
 Data Center POD automation script
@@ -34,16 +25,17 @@ __email__ = "rick@rickkauffman.com"
 __status__ = "Alpha"
 '''
 
-def port_info():
 
-    port_info = {
-                'dvs_name' : 'LG01-dvs-1',  
-                'dvs_pg' : 'LG01-DP-01',
-                'vm_name' :'LG01-WL01-V10-101',
-                'vmnic_mac' : '00:50:56:b6:5c:a6',
-                'portKey' : '1',
-                'vsp_ip' : '10.250.0.50',
-                'vsp_user' : 'administrator@vsphere.local',
-                'vsp_pass' : "password"
-                }
-    return port_info
+
+port_info = {
+            'dvs_name' : 'LG01-dvs-1',  
+            'dvs_pg' : 'LG01-DP-01',
+            'vm_name' :'LG01-WL01-V10-101',
+            'vmnic_mac' : '00:50:56:b6:5c:a6',
+            'portKey' : '1',
+            'vsp_ip' : '10.250.0.50',
+            'vsp_user' : 'administrator@vsphere.local',
+            'vsp_pass' : "Aruba123!@#",
+            'workloads': ['LG01-WL01-V10-101','LG01-WL02-V10-102','LG01-WL03-V20-101']
+            }
+

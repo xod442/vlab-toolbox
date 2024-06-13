@@ -60,6 +60,9 @@ from utility.dvsx import makedvs
 from utility.dvs_info import dvs_info
 from utility.portgroup import makepgrp
 from utility.deletedvs import deletedvs
+import utility.nic2dvs as nic
+from utility.port_info import port_info
+from utility.vm_watcher import vm_watcher
 import time
 import subprocess
 import logging
@@ -74,75 +77,7 @@ logging.basicConfig(filename="zero.log",
 					filemode='a')
 
 
-'''
-#-------------------------------------------------------------------------------
-Delete DVS
-#-------------------------------------------------------------------------------
-'''
-
-
-
-@app.route("/dvsdelete", methods=('GET', 'POST'))
-def dvsdelete():
-
-    # Get credentials
-    get_creds = db.creds.find({})
-    json_creds = loads(dumps(get_creds))
-    vsphere_user = json_creds[0]['vuser']
-    vsphere_pass = json_creds[0]['vsphere_password']
-
-    # Get IP vsphere
-    get_ips = db.address.find({})
-    json_ips = loads(dumps(get_ips))
-    vsphere_ip = json_ips[0]['vip']
-
-    logging.basicConfig(filename="zero.log",
-    					format='%(asctime)s %(message)s',
-    					filemode='a')
-
-    sslContext = ssl._create_unverified_context()
-
-    port="443"
-
-    # Create a connector to vsphere
-    si = SmartConnect(
-        host=vsphere_ip,
-        user=vsphere_user,
-        pwd=vsphere_pass,
-        port=port,
-        sslContext=sslContext
-    )
-
-    content = si.RetrieveContent()
-    dvs_list = content.viewManager.CreateContainerView(content.rootFolder,
-                                                     [vim.DistributedVirtualSwitch],
-                                                     True)
-
-    for dvs in dvs_list.view:
-        # rick.append('fail')
-
-        # check, junk = dvs.name.split("-")
-        message = 'Deleting distributed virtual switch %s' % (dvs.name)
-        logging.warning(message)
-        # if check == "dsf":
-        task = dvs.Destroy_Task()
-        response = WaitForTask(task)
-
-    dvs_list.Destroy()
-
-
-    when = str(datetime.datetime.now())
-    message = "%s ==> All distributed virtual switches have been removed\n" % (when)
-    logging.warning(message)
-    response = write_log(db,message)
-
-    Disconnect(si)
-
-    message = "DVS have been deleted."
-    return render_template('home.html', message=message)
-
-
-'''
+''''
 #-------------------------------------------------------------------------------
 Test Route
 #-------------------------------------------------------------------------------
@@ -150,49 +85,30 @@ Test Route
 
 @app.route("/test", methods=('GET', 'POST'))
 def test():
-    # Get credentials
-    get_creds = db.creds.find({})
-    json_creds = loads(dumps(get_creds))
-    vsphere_user = json_creds[0]['vuser']
-    vsphere_pass = json_creds[0]['vsphere_password']
 
-    # Get IP vsphere
-    get_ips = db.address.find({})
-    json_ips = loads(dumps(get_ips))
-    vsphere_ip = json_ips[0]['vip']
+    content, si = nic.login(port_info);
 
-    logging.basicConfig(filename="zero.log",
-    					format='%(asctime)s %(message)s',
-    					filemode='a')
-
-    sslContext = ssl._create_unverified_context()
-
-    port="443"
-
-    # Create a connector to vsphere
-    si = SmartConnect(
-        host=vsphere_ip,
-        user=vsphere_user,
-        pwd=vsphere_pass,
-        port=port,
-        sslContext=sslContext
-    )
-    message="Starting to create distibuted virtual switches"
+    dvs_name = "LG01-dvs-1"
+    portgroup_name = "LG01-DP-01"
+    
+    message="Connecting to vsphere"
     logging.warning(message)
 
-    for dvs in dvs_info:
-        response = makedvs(si, dvs)
-        time.sleep(3)
+    workloads = port_info['workloads']
 
-    message="Starting to port groups to distibuted virtual switches"
-    logging.warning(message)
+    lines = []
+    for load in workloads:
+        line = vm_watcher(content,load)
+        lines.append(line)
 
-    #Build the port groups
-    response = makepgrp(si)
 
+    #port_list = nic.get_vm_on_dvs(content, dvs_name)
+    #port_group = nic.find_dvs_portgroup_by_ame(content, dvs_name, portgroup_name)
+    
     Disconnect(si)
+    
+    message = lines
 
-    message = "DVS Created!."
     return render_template('home.html', message=message)
 
 
@@ -211,44 +127,56 @@ def login():
 @app.route("/home", methods=('GET', 'POST'))
 def home():
     message='Welcome to the machine'
-    message = port_info()
     return render_template('home.html', message=message)
 
-@app.route("/list_dvs", methods=('GET', 'POST'))
-def list_dvs():
-    return render_template('list_logs.html')
 
-@app.route("/connect_dvs", methods=('GET', 'POST'))
-def connect_dvs():
-    return render_template('list_logs.html')
+
+@app.route("/show_connect", methods=('GET', 'POST'))
+def show_connect():
+    content, si = nic.login(port_info)
+
+    workloads = port_info['workloads']
+
+    lines = []
+    for load in workloads:
+        line = vm_watcher(content,load)
+        lines.append(line)
+
+    Disconnect(si)
+    
+    return render_template('list_connects.html', lines=lines)
+
+@app.route("/connect_workload", methods=('GET', 'POST'))
+def connect_workload():
+    content, si = nic.login(port_info)
+
+    switch = nic.find_dvs_by_name(content, port_info['dvs_name'])
+    switch_uuid = switch.uuid
+
+    vm = nic.find_vm_by_name(content, port_info['vm_name'])
+
+    #dvs = nic.find_dvs_by_name(content, port_info['dvs_name'])
+    
+    port_group = nic.find_dvs_portgroup_by_name(content, port_info['dvs_name'],port_info['dvs_pg'])
+    if port_group:
+        tash, portgroup_key = str(port_group).split(':')
+        portgroup_key = portgroup_key[:-1]
+
+    portKey = port_info['portKey']
+    pg_name = port_info['dvs_pg']
+    vnic_mac = port_info['vmnic_mac']
+
+
+    response = nic.connect_vnic_to_portgroup(vm, portgroup_key, vnic_mac, switch_uuid, pg_name, portKey)
+
+
+    Disconnect(si)
+    message='VM Nic has been connected to the switch'
+    return render_template('home.html', message=message)
 
 @app.route("/reset_afc", methods=('GET', 'POST'))
 def reset_afc():
     return render_template('list_logs.html')
-
-'''
-#-------------------------------------------------------------------------------
-Database Drop warning
-#-------------------------------------------------------------------------------
-'''
-
-@app.route("/db_warn", methods=('GET', 'POST'))
-def db_warn():
-    return render_template('db_warn.html')
-
-'''
-#-------------------------------------------------------------------------------
-Database Drop
-#-------------------------------------------------------------------------------
-'''
-
-@app.route("/db_drop", methods=('GET', 'POST'))
-def db_drop():
-    db.creds.drop()
-    db.address.drop()
-    db.logs.drop()
-    message="All datbases have been dropped"
-    return render_template('home.html')
 
 
 

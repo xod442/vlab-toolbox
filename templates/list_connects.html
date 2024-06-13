@@ -9,19 +9,19 @@
 
             <div class="row mt-50">
                 <div class="col-md-8 col-md-offset-2"><br><br><br>
-                    <h2 class="text-center heading-separator" style="color:white" >List of Distributed Virtual Switches</h2>
+                    <h2 class="text-center heading-separator" style="color:white" >List of Connected Workloads</h2>
                     <form method="POST" action="{{ url_for('home', message = 'Returned to home screen...EOL') }}">
                       <div class="data-tables datatable-dark">
                             <table id="example" class="styled-table">
                                   <thead class="text-capitalize">
                                       <tr>
-                                          <th>Distributed Virtual Switches</th>
+                                          <th>Workload Connections</th>
                                       </tr>
                                       </thead>
                                       <tbody>
-                                          {% for switch in switches %}
+                                          {% for line in lines %}
                                           <tr>
-                                              <td>{{switchs}}</td>
+                                              <td>{{line}}</td>
                                           </tr>
                                           {% endfor %}
                                       </tbody>
